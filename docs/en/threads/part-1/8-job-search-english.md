@@ -142,6 +142,8 @@ Change one condition per practice: wording, duration, listener, entry point, or 
 
 Remote interviews carry delay, accent variation, device limits, and time pressure. The more complex the answer, the more it needs a line the listener can hold.
 
+Accent difference alone is not evidence of interview failure. Use the [Speaking Evidence Card](../../templates/speaking-evidence.md) to preserve device, listener retelling, replay points, and interaction repair. When the listener recovers the answer, evidence, and next step, do not spend role-preparation time imitating one prestige accent.
+
 A useful order is:
 
 1. **One-sentence answer**: answer the question directly.

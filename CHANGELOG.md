@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Rebuilt the bilingual Speaking chapter around unscripted baselines, reference variety without hierarchy, accentedness/intelligibility/comprehensibility distinctions, high-impact pronunciation, generation beyond shadowing, interaction repair, listener retelling, AI limits, and a fourteen-day transfer experiment.
+- Expanded the bilingual Speaking Evidence Card to capture three baseline conditions, recording consent, device and listener familiarity, actual listener recovery, comprehension effort, unfamiliar follow-ups, repair, recognition errors, and day-fourteen transfer.
+- Connected the new speaking method through the home pages, Reader's Guide, Toolkit Overview, glossary, Listening, AI-English, Job-search English, search-budget rules, research attribution, and regression coverage.
 - Added a bilingual Grammar chapter that starts from real-task baselines and form–meaning choices, prioritises errors by communicative impact, reconnects explicit explanation to output, and tests one structure through a fourteen-day delayed-transfer cycle.
 - Added a bilingual Grammar Evidence Card and connected it through Part I, the home pages, Reader's Guide, Toolkit Overview, glossary, search index, and continuous book navigation.
 - Made the existing bilingual biezou.com home-page entry an explicit third-party AI relay recommendation, while retaining current-site verification, privacy, pricing, terms, and availability boundaries.

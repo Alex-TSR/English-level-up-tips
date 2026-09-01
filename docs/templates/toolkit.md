@@ -25,7 +25,8 @@ updated: 2026-09-02
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 规则似乎懂了，真实表达仍反复出错 | [语法证据卡](grammar-evidence.md) | [语法篇](../threads/part-1/grammar.md) | 不能把一次改对、风格偏好或 AI 润色当成稳定语法能力 |
 | 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
-| 不敢开口或写不出来 | [口语证据卡](speaking-evidence.md) 或 [写作证据卡](writing-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) · [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实听众面前的表达 |
+| 只在背稿时流畅、害怕口音或遇到追问就卡住 | [口语证据卡](speaking-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) | 不能把口音相似度、语音识别分数或一次重录当成稳定互动能力 |
+| 写不出来或只能展示工具润色后的成品 | [写作证据卡](writing-evidence.md) | [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实读者面前的写作与修订迁移 |
 | 不知道怎样让 AI 参与 | [AI 任务简报](ai-task-brief.md) | [AI 学习记录](ai-learning-log.md) | 不能把模型回答自动变成事实或最终判断 |
 | 有想法却没有可交付作品 | [作品简报与交付卡](artifact-brief.md) | [AI 项目评分卡](ai-project-scorecard.md) | 不能替你找到用户、承担责任或证明商业结果 |
 | 想分析一个人物或项目故事 | [AI 经历案例复盘](ai-case-review.md) | [叙事与证据篇](../threads/part-2/narrative-and-evidence.md) | 不能把公开叙事当成独立审计 |

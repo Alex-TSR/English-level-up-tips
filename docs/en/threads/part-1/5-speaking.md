@@ -1,226 +1,263 @@
 ---
 title: "Speaking: Make Meaning Arrive"
-description: Use CEFR goals and recording evidence to train task completion, comprehensibility, fluency, interaction, and revision.
+description: Begin with unscripted baselines, a reference variety, and real listeners to train comprehensibility, pronunciation, chunks, interaction repair, and transfer without treating accent removal as the goal.
 updated: 2026-09-02
+sources_checked: 2026-09-02
 ---
 
 # Speaking: Make Meaning Arrive
 
-Source (Chinese edition): [Speaking](../../../threads/part-1/5-speaking.md)
+I once imagined speaking as a live examination. The sentence had to be arranged before I opened my mouth. The pronunciation should resemble the recording. Pauses should disappear, and errors should remain unheard. The harder I tried to speak well, the higher the threshold became.
 
-Speaking is not about performing one “correct” accent. It is about making meaning arrive clearly and naturally within a real interaction. Pronunciation, vocabulary, and grammar matter, but they serve comprehension, interaction, and task completion.
+A real conversation is not a performance completed alone. Another person asks an unfamiliar question, misunderstands, adds information, changes direction, or enters with a different accent, pace, device, and history. Speaking ability therefore does not live only in pronunciation. It includes finding the main line, noticing that the other person has not followed, trying another wording, admitting what is not yet known, and continuing the shared task after repair.
 
-## Quick Overview
+This chapter does not promise accent removal or present American, British, or any other single voice as the destination of English. It offers a smaller path: choose a reference variety related to your audience, preserve unpolished recordings, ask real listeners to retell what reached them, repair only one to three high-impact problems, then test the result with unfamiliar questions, different listeners, and time pressure.
 
-- build intelligible pronunciation with reliable audio and physical practice, not Chinese approximations;
-- move familiar expressions into your mouth through reading aloud, retelling, role-play, and real conversations;
-- record an unaided first take and repair only the one to three issues that most affect understanding;
-- judge progress by whether a listener can restate your point, not by accent conformity.
+## Chapter at a Glance
 
-## Define the Speaking Task First
+- Define an explanation, interaction, repair, or collaboration task before choosing an exercise.
+- Preserve unscripted monologue, question-and-answer, and interaction-repair baselines instead of substituting a memorised script.
+- Use one reference variety for consistency while gradually learning to understand varied real-world Englishes.
+- Separate accentedness, intelligibility, and comprehensibility instead of calling every noticeable difference an error.
+- Prioritise pronunciation and rhythm problems that change words, time, numbers, responsibility, or information focus.
+- Use shadowing to observe and imitate; use retelling, follow-ups, and collaboration to generate meaning.
+- Treat AI and speech recognition as clues; listener retelling and next action are stronger evidence.
+- Track one real situation and a few high-impact problems for fourteen days.
 
-Speaking practice is not only a monologue. Decide whether you need to explain, interact, repair a misunderstanding, or transfer a skill to a new situation, then choose the exercise.
+## 1. Define the Speaking Task
 
-| Task | Conditions | Evidence of completion |
+"Improve speaking" is too large to train directly. Rewrite it as an action that will happen:
+
+| Task | Practice condition | Evidence of completion |
 | --- | --- | --- |
-| Explain | 60–120 seconds, unscripted, describing an experience, view, or process | A listener can write your gist and two key details |
-| Interact | At least five turns with questions and follow-ups | Keep the conversation notes and mark one question you used to move it forward |
-| Repair | Start from one real uncertain point and practise clarifying, restating, and confirming | Record how the misunderstanding was found, repaired, and confirmed |
-| Transfer | Repeat with a new person, topic, time limit, or audience | Compare task completion, not accent similarity |
+| Explain | 60-120 seconds, unscripted, describing an experience, view, or process | A listener can retell the gist and two key details |
+| Answer | At least five turns, including one unfamiliar follow-up | The response does not miss the question entirely and advances the conversation once |
+| Repair | Preserve a moment of unclear hearing, unclear scope, or failed expression | Repetition, confirmation, or rephrasing restores shared understanding |
+| Collaborate | Meeting, interview, customer conversation, or joint decision | The other person knows the conclusion, disagreement, owner, and next step |
+| Transfer | Change topic, listener, device, pace, or time limit | A related task remains possible without the old script |
 
-Copy the [Speaking Evidence Card](../../templates/speaking-evidence.md) to keep the recording, transcript, listener feedback, and next variable together.
+Before starting, write who is listening, why they are listening, and what they need to know or do afterwards. Speaking is not making all English impressive. It is completing this task inside this relationship under the current conditions.
 
----
+Copy the [Speaking Evidence Card](../../templates/speaking-evidence.md) to keep recordings, listener retellings, repair actions, and delayed retests together.
 
-## IPA / Phonics
+## 2. Preserve Three Unpolished Baselines
 
-If you want to speak better, start with pronunciation. IPA is a map, not the destination. Any Chinese approximation is only a cue for mouth shape or airflow; it cannot replace dictionary audio, feedback, or comparing your own recording.
+A person may speak smoothly in a monologue and lose direction during follow-ups. Another may pronounce clearly but fail to confirm what was actually asked. Preserve at least three samples:
 
-There is no shortcut, but the sound inventory is limited. Hear a sound, inspect the symbol, practise it, and return to it inside real words and sentences.
+1. **Monologue baseline**: speak for 90-120 seconds about a real experience or problem without a script.
+2. **Interaction baseline**: complete five question-and-answer turns with one unknown question.
+3. **Repair baseline**: record one request for repetition, scope confirmation, rephrasing, or summary of agreement.
 
-Recommended playlist:
+Keep the raw audio. Do not remove pauses, reduce noise, or ask AI to rewrite before saving it. Record the device, network, notes, retake permission, and listener familiarity with the topic. Performances under different conditions are not directly comparable.
 
-- [Teach Reading with Phonics - American English Pronunciation!](https://www.youtube.com/playlist?list=PL9BB1D7256440E08B)
+Ask the listener to answer from audio alone:
 
-### Vowels (quick reference)
+```markdown
+The main point I heard:
+The two clearest details:
+Where I had to guess or replay:
+What I would ask or do next:
+```
 
-- cop /ɑ/ — like “ah”
-- the /ə/ — “uh” (unstressed)
-- cup /ʌ/ — like “uh” (stressed)
-- boot /u/ — “oo”
-- book /ʊ/ — shorter “oo”
-- beat /i/ — “ee”
-- bit /ɪ/ — “ih”
-- make /eɪ/ — “ay”
-- head /e/ — “eh”
-- had /æ/ — “a” as in “cat”
-- law /ɔ/ — “aw”
-- now /aʊ/ — “ow”
-- bite /aɪ/ — “eye”
-- boy /ɔɪ/ — “oy”
-- go /oʊ/ — “oh”
+A transcript can reveal vocabulary and structure. It cannot replace stress, pause, stance, or interaction timing. Listen before reading.
 
-### Consonants (quick reference)
+## 3. Choose a Reference Variety without Creating a Hierarchy
 
-- web /w/
-- yes /j/
-- father /f/
-- very /v/ (like /f/ but with voice)
-- red /r/ (before a vowel)
-- car /r/ (after a vowel)
-- light /l/ (before a vowel)
-- well /l/ (after a vowel)
-- night /n/ (before a vowel)
-- pen /n/ (after a vowel)
-- mom /m/
-- sing /ŋ/
-- roads /dz/
-- let’s /ts/
-- boss /s/
-- rose /z/ (voiced /s/)
-- thanks /θ/
-- them /ð/
-- just /dʒ/
-- check /tʃ/
-- she /ʃ/
-- Asia /ʒ/
-- try /tr/
-- dry /dr/
-- pet /p/
-- bed /b/
-- too /t/
-- do /d/
-- kiss /k/
-- go /g/
-- how /h/
+English varies across regions, communities, professions, and individuals. American and British English are common reference points, not the whole language and not ranks of quality.
 
-Channel recommendation:
+Choose a reference variety through four questions:
 
-- [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg) (great for speaking practice)
+1. **Real audience**: which colleagues, customers, teachers, exams, or communities do you mainly encounter?
+2. **Stable material**: can dictionary audio, courses, and feedback remain reasonably consistent over time?
+3. **Task cost**: do spelling, vocabulary, or pronunciation differences actually affect the current delivery?
+4. **Identity**: are you willing to use this voice over time, or are you trying to hide yourself inside imitation?
 
----
+A reference variety reduces early decisions: follow one reliable audio source for a word and keep spelling consistent inside a formal document. It does not require excluding other varieties. Real collaborators may bring English shaped by India, Singapore, Nigeria, China, the United States, Britain, or many other language histories. Listening practice must gradually add different accents, speeds, and interaction styles.
 
-## Speak Out Loud
+Write two boundaries:
 
-Speaking quietly and speaking out loud are very different.
+```markdown
+Current reference variety:
+Why it fits this task:
+Other varieties I need to understand gradually:
+Differences I only need to recognise, not force myself to imitate:
+```
 
-Using *New Concept English* Book 3/4 as an example:
+Consistency serves learning. Tolerance of difference serves reality. "Choose one" must not become "only one is correct."
 
-1. listen carefully first
-2. read out loud
-3. at the beginning, don’t worry about linking or pausing—just focus on clear, accurate sounds
-4. once you can read smoothly, start mimicking the speaker’s rhythm and intonation
+## 4. Separate Accentedness, Intelligibility, and Comprehensibility
 
----
+Three ideas need separate names:
 
-## Real Conversations: When Words Arrive Slowly
+| Idea | Meaning in this chapter | How to observe it |
+| --- | --- | --- |
+| Accentedness | How different the speech sounds from a listener's familiar reference | It shows that speech sounds different, not that the task failed |
+| Intelligibility | How much wording, meaning, and relationship the listener actually recovered | Ask for the gist, details, numbers, responsibility, and next step |
+| Comprehensibility | How much effort the listener needed to understand | Did they replay, guess, pause, or confirm repeatedly? |
 
-When you first speak English with another person, the idea in your head may be richer than the sentence you can produce. That is a common phase. Allow simple sentences, then practise moving the interaction forward instead of treating one pause as a verdict on your ability.
+An accent can be noticeable and easy to understand. Speech can also resemble a prestige model while unclear focus, numbers, or logic blocks the task. Listeners bring experience, familiarity, and bias, so one negative reaction must not be assigned entirely to the speaker.
 
-Many people speak like this at first:
+Use more than one condition: at least two listeners, a different device, or a new topic. Preserve what each listener actually heard instead of only an impression of native-likeness.
 
-1) think in Chinese  
-2) translate into English in their head  
-3) search for the right word  
-4) get stuck and freeze
+## 5. Repair High-Impact Pronunciation Relationships First
 
-After enough listening and speaking practice, your brain starts building “reflex phrases”. In certain situations you’ll respond instantly without translating.
+IPA is a map, not the destination. It can locate tongue position, airflow, voicing, and mouth shape, but it cannot replace reliable audio, your recording, and a real listener.
 
-That automaticity comes from repeated listening and use of high-frequency phrases, not from memorising isolated expressions.
+### Sounds and Word Meaning
 
-A minimum interaction turn can be:
+Practise only contrasts that currently change a word or produce recurring misunderstanding. Whether `/ɪ/` and `/i:/`, `/r/` and `/l/`, or voiced and voiceless consonants matter depends on your words, audience, and error record. Do not distribute equal time across every sound.
 
-1. **Confirm**: restate the key words you heard.
-2. **Respond**: give the core meaning you can express now.
-3. **Repair**: ask for repetition or try another wording when needed.
-4. **Advance**: ask one question so the conversation keeps moving.
+Use five steps: distinguish two words by ear; observe articulation; say them slowly; return them to a short sentence; choose again inside an unfamiliar sentence. If the isolated word is clear but disappears inside speech, the problem has moved from one sound to rhythm or retrieval.
 
-Useful repair lines include `Could you say that again?`, `Do you mean ...?`, `Let me put it another way.`, and `I need a second to think.` They are tools for continuing an interaction, not empty filler.
+### Endings, Stress, and Boundaries
 
----
+In real tasks, endings and stress may carry time, number, word class, or information focus:
 
-## Sing English Songs
+```text
+work / worked
+fifteen / fifty
+REcord / reCORD
+We need the BLUE file. / We NEED the blue file.
+```
 
-If you’re already in love with melodies, why not sing?
+Do not ask only whether every sound is accurate. Ask whether the listener heard the past, number, keyword, and contrast. A small difference in sound colour usually matters less than a missing critical ending or misplaced sentence focus.
 
-Lately I’ve been into Troye Sivan. Singing can also be a low-pressure pronunciation exercise:
+### Chunks, Pauses, and Stance
 
-- organize the lyrics
-- write down unknown words and learn them first
-- sing along (yes, I actually bought a microphone)
+Divide a long sentence into breathable meaning units: context, claim, reason, condition, and next step. Pause between relationships instead of cutting a phrase at random.
+
+```text
+Based on the current test, / I recommend a smaller release, / because rollback is still available.
+```
+
+Rhythm is not a performance of authenticity. It helps the listener predict structure. Make the main line clear before adding linking, reduction, and subtle intonation.
+
+## 6. Shadowing Is Not the Destination: Move from Imitation to Generation
+
+Shadowing can reveal sounds, rhythm, and pauses. When you stay behind the recording, however, the content, word order, and next line were all decided by someone else. It cannot by itself prove that you can generate meaning in a real conversation.
+
+Move one piece of material through five levels:
+
+1. **Listen and mark**: write the gist, stress, pauses, and unclear moments.
+2. **Read aloud**: make the text clear without copying every detail.
+3. **Delayed shadow**: remain slightly behind the audio and observe rhythm without racing it.
+4. **Close and retell**: preserve meaning in your own word order.
+5. **Answer an unfamiliar follow-up**: respond to a question the material did not supply.
+
+If level four collapses, do not add endless shadowing repetitions. Shorten the material, reduce the information, and rebuild from three remembered keywords.
+
+## 7. Build Flexible Scaffolds with Chunks
+
+Speaking needs structures that can be retrieved quickly, but a complete memorised script locks fluency inside one condition. Use replaceable chunks:
+
+```text
+The main issue is ...
+What changed was ...
+I am not certain about ..., but the current evidence suggests ...
+Could we first clarify ...?
+My recommendation is ..., because ...
+```
+
+Vary each chunk by topic, position, and audience. Then add one surprise: the listener disagrees, the data is incomplete, or only thirty seconds remain.
+
+A chunk is scaffolding, not a mask. The goal is not to repeat one sentence everywhere. It is to build a main line and let the other person's response change what comes next.
+
+## 8. Interaction Repair Is Ability, Not Remediation
+
+Misunderstanding is ordinary in conversation. The danger is losing shared understanding and continuing because neither person wants to expose the break.
+
+Practise five repair types:
+
+| Situation | Repair action | Example |
+| --- | --- | --- |
+| Not heard | Ask for repetition or slower delivery | `Could you say the last part again?` |
+| Scope unclear | Confirm the question | `Are you asking about the cause or the next step?` |
+| Thinking needed | Request limited time | `Let me think for a moment.` |
+| Expression failed | Rephrase | `Let me put that another way.` |
+| Agreement unstable | Summarise and confirm | `So we will test it today and decide tomorrow. Is that right?` |
+
+Do not only memorise repair lines. Ask a partner to speed up, change the question, misunderstand a number, or challenge the evidence. Observe whether you notice the break and restore the task.
+
+For global job search or remote work, continue to [Job-search English](8-job-search-english.md) and keep project explanation, unfamiliar follow-ups, admission of unknowns, and asynchronous summary inside one scenario.
+
+## 9. Divide Work among Real Listeners, Teachers, and AI
+
+| Role | Useful work | What it cannot prove alone |
+| --- | --- | --- |
+| Self | Preserve raw audio, mark pauses, compare versions | Familiarity with your own voice can fill information the listener missed |
+| Real listener | Retell the gist, locate guessing, and continue the task | One listener may be shaped by familiarity and bias |
+| Teacher/coach | Observe articulation, rhythm, teachable problems, and sequence | Feedback still has to return to your task and transfer sample |
+| AI/speech recognition | Offer transcript candidates, generate follow-ups, locate possibly unclear segments | Results change with accent, microphone, noise, model, and network |
+
+When asking AI for feedback, submit the task and your first take before requesting analysis. Ask it to separate possible misrecognition, confident misrecognition, organisation, grammar, register, and style. Preserve the raw audio and tool version. Do not turn a recognition score into pronunciation truth.
+
+For customer, colleague, student, family, medical, or unreleased project material, obtain recording and upload permission first. Otherwise use fictional details or local processing. The value of real interaction cannot depend on crossing privacy boundaries.
+
+## 10. Put Practice Back into Life
+
+I really did buy a microphone, and I have sung along repeatedly to songs I loved. Singing cannot replace questions, repair, and real collaboration, but it lets sound leave internal judgment and enter the body. Low-pressure practice has a place: read a passage you care about, leave a voice message, sing a song, or describe something that actually happened today.
 
 ![speaking practice setup](../../../assets/speaking-practice.svg)
 
-Keep the interest and make the goal concrete. Singing is not an exam: enjoy the sound first, then notice whether sentences become easier to hear and say.
+Connect relaxed practice to a real task. Take one chunk from a lyric and use it in your own sentence tomorrow. Let a voice message lead to a follow-up. Let reading aloud lead to retelling after the page closes. Interest brings you back; evidence tells you whether you moved.
 
----
+A twelve-minute loop:
 
-## Prepare Common Questions for Yourself
+1. Two-minute unscripted first take.
+2. Three minutes to replay and mark one high-impact problem.
+3. Three minutes of sound, chunk, or repair practice.
+4. Two-minute retake.
+5. Two minutes for an unfamiliar follow-up and the next variable.
 
-To build “English intuition”, prepare a set of common topics and practice them repeatedly until you can speak smoothly and reorder sentences freely:
+## 11. A Fourteen-Day Speaking Experiment
 
-- introduce yourself
-- introduce your hometown
-- how life has been recently
-- a few things that make you happiest
-- a small but unforgettable memory
-- your opinion on a product (e.g., iPad Pro)
+| Day | Action | Evidence |
+| --- | --- | --- |
+| 1 | Define one real situation; record a monologue and five-turn exchange | Raw audio, conditions, listener retelling |
+| 2 | Choose a reference variety and reliable audio | Choice reason and differences not requiring imitation |
+| 3 | Find one high-impact pronunciation or rhythm problem | Error segment and task impact |
+| 4 | Practise distinction, slow production, a short sentence, and an unfamiliar sentence | Recordings under four conditions |
+| 5 | Read, delay-shadow, and retell the same material from memory | Imitation-generation difference |
+| 6 | Build five replaceable chunks | Three topic variations |
+| 7 | Remove the old script and complete the first delayed retest | New-topic 90-120 second recording |
+| 8 | Ask a partner to create one hearing or scope break | Repair process and confirmation result |
+| 9 | Change listener or device | Listener retelling under changed conditions |
+| 10 | Listen to an unfamiliar English variety and retell | Gist, details, and uncertainty |
+| 11 | Repair only the problem that still recurs | Third version and rejected low-impact advice |
+| 12 | Let AI or a partner ask three unfamiliar follow-ups | Unscripted answers and transcript errors |
+| 13 | Explain a collaboration or decision under time pressure | Conclusion, owner, and next step |
+| 14 | Close prompts, complete a new situation, and choose the next cycle | Evidence for keep, adjust, or move on |
 
----
+Fourteen days is not a fluency deadline. It answers a smaller question: without the familiar script, after the listener changes or a follow-up arrives, is this expression still usable?
 
-## Use YouTube Channels by Task
+## 12. Evidence That Speaking Is Becoming Ability
 
-The channels below are entry points for pronunciation and expression practice, not a subscription list. Channels can rename, stop updating, or change captions; check title, captions, access date, and task before starting. Replace or unsubscribe when a source produces no output for two weeks.
+Stronger evidence includes:
 
-- [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)
-- [Speak English With Vanessa](https://www.youtube.com/channel/UCxJGMJbjokfnr2-s4_RXPxQ)
-- [Doing English with Julian Northbrook](https://www.youtube.com/channel/UC1ZSvn6VIWqM68J_2USwH3Q)
-- [A.J. Hoge](https://www.youtube.com/c/AJHogeEffortlessEnglish)
-- [AccurateEnglish](https://www.youtube.com/channel/UCMTcsanYhBtOb096XegDZQA)
+- A listener can retell the gist and key details after one pass.
+- Numbers, time, responsibility, conditions, and next steps are misunderstood less often.
+- A pause or error does not end participation.
+- You can confirm a question, request repetition, rephrase, and summarise agreement.
+- Seven days later, a related task remains possible without the old script.
+- Topic, listener, device, or accent can change without destroying the task.
+- You can separate necessary repair, reference-variety difference, and identity preference.
+- You can explain why you accepted or rejected feedback from AI, a teacher, or a listener.
 
-Less is more. Pick a few and practise a lot. When suggesting a channel, include its task, last-checked date, and public link.
+Fluency is not packing more words into each minute or editing out every pause. It is attention moving away from "Do I sound enough like somebody else?" and back toward "Are we still understanding the same thing?"
 
----
+## Sources and Boundaries
 
-## Add Real Interaction Safely
+- [Derwing & Munro (2005), Second Language Accent and Pronunciation Teaching](https://api.crossref.org/works/10.2307%2F3588486): the review separates accent from communication outcomes, foregrounds mutual intelligibility, and notes the social consequences of accent.
+- [Levis (2005), Changing Contexts and Shifting Paradigms in Pronunciation Teaching](https://api.crossref.org/works/10.2307%2F3588485): the article discusses a shift from accent reduction toward intelligibility, identity, World Englishes, and negotiation between speaker and listener.
+- [Saito (2012), Effects of Instruction on L2 Pronunciation Development](https://api.crossref.org/works/10.1002%2Ftesq.67): a synthesis of fifteen quasi-experimental intervention studies; this chapter does not turn group averages into a personal outcome guarantee.
+- Pronunciation, vocabulary, register, and acceptability change across region, community, task, and listener. Important delivery should be checked against the current audience, reliable dictionary audio, professional feedback, and real-task retesting.
 
-Real interaction does not have to begin with a complete stranger. Start with a classmate, colleague, teacher, or moderated platform partner; voice messages and role-play can add uncertainty gradually.
-
-Do not share identity documents, address, financial, medical, or client information. If someone pressures you, crosses a boundary, or makes you unsafe, end the interaction and use the platform’s block/report tools.
-
-Further reading: [Why we’re afraid to talk to strangers](https://github.com/byoungd/me/blob/main/blog/3.why-we-are-afraid-to-communicate-with-strangers.md)
-
----
-
-## CEFR Task Goals
-
-- **A1–A2**: complete short introductions, shopping, directions, and appointment interactions.
-- **B1**: explain experiences, plans, and reasons coherently and handle common follow-ups.
-- **B2**: participate fairly naturally, explain specialist matters, and maintain a position.
-- **C1–C2**: organise flexibly and negotiate fine meaning in complex or pressured settings.
-
-For job search or remote work, connect speaking practice to [Job-search English](8-job-search-english.md). Project explanation is only the first layer; practise unfamiliar follow-ups, thinking time, scope confirmation, admission of unknowns, and summaries of agreement. Use the [Job-search English Evidence Card](../../templates/interview-evidence.md) to keep interaction and asynchronous writing inside one role-specific record.
-
-## Inspectable Practice and Feedback
-
-Choose a real scenario and record an unscripted two-minute first take. Transcribe it and mark only pauses, chunks, grammar, or pronunciation that affect understanding. Repair one to three issues and record again after a delay. Ask a listener to restate the message from the audio alone.
-
-When one structure repeatedly changes time, responsibility, condition, or strength of stance, do not only correct the transcript. Move it into the [Grammar Evidence Card](../../templates/grammar-evidence.md), compare intended meaning with likely interpretation, then test retrieval inside an unfamiliar follow-up.
-
-Score 0–2 for task completion, comprehensibility, organisation, interaction, and accuracy/range. A different accent is not an error; prioritise misunderstandings and persistent blocks.
-
-Put the unscripted first take, revised take, listener retelling, and unfamiliar-question transfer in the [Evidence Chain Template](../../templates/evidence-chain.md) to separate smoother speech from stable ability.
-
-## Seven Days, Thirty Days, Twelve Weeks
-
-- **Seven days**: four 60–120 second outputs in one scenario, each with first and second takes.
-- **Thirty days**: one monologue, one role-play, and one real or peer conversation weekly; track recurring pauses and repair strategies.
-- **Twelve weeks**: add unfamiliar questions, time pressure, and real audiences; finish with a five-to-ten-minute presentation, interview, or meeting.
+Related entry points: [Listening](3-listening.md) | [Grammar](grammar.md) | [Learning English with AI](7-ai.md) | [Speaking Evidence Card](../../templates/speaking-evidence.md) | [Evidence Chain Template](../../templates/evidence-chain.md)
 
 ## Closing: Let Meaning Arrive
 
 Speaking is not removing an accent or reaching a life without hesitation. It is letting another person understand what you mean, why you mean it, and how they might respond, even when time is short and the sentence is imperfect.
 
-You may pause, choose another phrase, or admit that a word has not arrived. Fluency is not the absence of error. It is remaining inside the conversation after an error, repairing what failed, and listening for the place where the other person did not understand.
+You may pause, try another wording, or admit that a word has not arrived. Fluency is not permanent correctness. It is remaining in the conversation after an error, willing to repair and willing to hear where the other person did not understand.
 
-When you speak the first imperfect sentence and seriously wait for the answer, language stops being a performance completed alone. It becomes a relationship: meaning leaves you, finds an echo in another person's understanding, and returns carrying a new question.
+When you say the first imperfect sentence and wait seriously for the answer, language stops being a performance completed alone. It becomes a relationship: meaning leaves you, gains an echo inside another person's understanding, and returns carrying a new question.

@@ -1,7 +1,7 @@
 ---
 title: "Listening: From Sound Recognition to Real Understanding"
 description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Listening: From Sound Recognition to Real Understanding
@@ -96,6 +96,8 @@ It’s normal if you can’t keep up on the first listen. A few repeats usually 
 For a 30-second to 3-minute clip, use five steps: listen for gist, mark unclear sounds, check the English transcript, listen again without text, and retell the meaning. Do not demand a perfect first pass; make each pass answer a different question.
 
 Intensive practice also helps you notice pronunciation patterns: linking, reductions, pauses, chunking. Find your weak spots and train them deliberately.
+
+Do not stop at line-by-line repetition after intensive listening. Continue through the five levels in [Speaking](5-speaking.md): read aloud, delay-shadow, close and retell, then answer a follow-up the material did not supply. Repeating the model shows finer observation; reorganising meaning under a new question begins to show speaking transfer.
 
 In high school I used a very “dumb” method: I listened over and over until I could recite and write down the whole text. I spent a lot of time on *New Concept English* Book 3. Back then, I couldn’t really see the improvement and even wondered if it was pointless—until I scored 115/120 on the English exam.
 

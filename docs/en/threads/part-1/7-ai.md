@@ -111,6 +111,8 @@ A 12-minute session:
 
 Speech recognition is a clue, not proof of natural pronunciation. The stronger test is whether a trustworthy listener understands once, whether repetition is needed, and whether you can continue in a new question.
 
+Choose a reference variety related to the real audience, then add other English varieties gradually. Do not let a model turn "sounds different" automatically into "wrong". Use the [Speaking Evidence Card](../../templates/speaking-evidence.md) to preserve device, listener familiarity, recognition errors, listener retelling, and interaction repair, separating accentedness, actual misunderstanding, and comprehension effort.
+
 ## 6. Reading: Train the Evidence Chain
 
 Before AI, mark claims, evidence, definitions, examples, and unknowns. Then ask AI to compare your marks and quote the original locations. Do not accept “the article basically says”.

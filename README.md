@@ -45,7 +45,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   <a class="guide-path" href="./docs/templates/learning-state.md"><strong>终身学习系统</strong>从真实问题、当前基线和最小任务出发，让每轮学习都能被继续、复测与迁移。</a>
   <a class="guide-path" href="./docs/threads/part-3/1-ai-learning.md"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
   <a class="guide-path" href="./docs/threads/part-3/2-ai-development-and-resource-layer.md"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
-  <a class="guide-path" href="./docs/threads/part-1/0-cefr.md"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档、国际 AI 工具与跨文化协作。</a>
+  <a class="guide-path" href="./docs/threads/part-1/0-cefr.md"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档与国际 AI 工具，以可理解度而不是口音相似度进入跨文化协作。</a>
   <a class="guide-path" href="./docs/threads/part-1/grammar.md"><strong>语法基础与真实表达</strong>不从背完整规则开始，而从时间、责任、条件与确定性是否被听清开始，用一项高影响结构完成十四天复测。</a>
   <a class="guide-path" href="./docs/threads/part-1/8-job-search-english.md"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
   <a class="guide-path" href="./docs/threads/part-4/family-learning.md"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
@@ -63,7 +63,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | 部分 | 核心问题 | 入口 |
 | --- | --- | --- |
 | 阅读指南与序章 | 我从哪里进入，又为什么要重新开始？ | [阅读指南](docs/threads/part-0/reader-guide.md) · [先不要急着改变人生](docs/threads/part-0/prologue.md) |
-| 第一部：打开输入 | 怎样建立英语和世界之间的通道，并把能力带进面试与远程协作？ | [本部导语](docs/threads/part-1/open-input.md) · [CEFR 自测](docs/threads/part-1/0-cefr.md) · [词汇、听力、阅读、口语、写作](docs/threads/part-1/2-vocabulary.md) · [求职英语](docs/threads/part-1/8-job-search-english.md) |
+| 第一部：打开输入 | 怎样建立英语和世界之间的通道，并把能力带进面试与远程协作？ | [本部导语](docs/threads/part-1/open-input.md) · [CEFR 自测](docs/threads/part-1/0-cefr.md) · [词汇](docs/threads/part-1/2-vocabulary.md) · [语法](docs/threads/part-1/grammar.md) · [听力](docs/threads/part-1/3-listening.md) · [阅读](docs/threads/part-1/4-reading.md) · [口语](docs/threads/part-1/5-speaking.md) · [写作](docs/threads/part-1/6-writing.md) · [求职英语](docs/threads/part-1/8-job-search-english.md) |
 | 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [本部导语](docs/threads/part-2/return-to-life.md) · [我的故事](docs/threads/part-2/my-story.md) · [叙事与证据](docs/threads/part-2/narrative-and-evidence.md) · [恢复、选择、关系与创业](docs/threads/part-2/recovery.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [本部导语](docs/threads/part-3/amplify-ability.md) · [AI 学习](docs/threads/part-3/1-ai-learning.md) · [注意力、作品与证据](docs/threads/part-3/3-attention-and-judgment.md) · [项目实践](docs/threads/part-3/2-ai-development-and-resource-layer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、家庭与日常，并在需要时保护未成年学习者的主体性？ | [本部导语](docs/threads/part-4/practice-and-recovery.md) · [第一周实践](docs/threads/part-4/week-1.md) · [家庭学习](docs/threads/part-4/family-learning.md) · [生活系统](docs/threads/part-4/daily-system.md) · [节律](docs/threads/part-4/rhythm-and-compounding.md) |
