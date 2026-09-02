@@ -127,6 +127,8 @@ Write the first draft yourself. Ask AI for layered feedback on facts and sources
 
 Do not accept a whole rewritten paragraph by default. Keep the original, suggestions, final version, and a new similar email. If the final text is polished but you cannot explain the important edits, the ability is not stable yet.
 
+Use the [Writing Evidence Card](../../templates/writing-evidence.md) to record the fact and responsibility ledger, translation meaning changes, reasons for accepting or rejecting feedback, tool version, required disclosure, and a parallel task after closing the tool. A model may assist editing; it cannot become a hidden author. Fluency does not replace sources, permission, authorship, or final accountability.
+
 ## 8. Choose Tools Without Confusing Functions
 
 | Task | Useful capability | Verify yourself |

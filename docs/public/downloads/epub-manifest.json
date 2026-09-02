@@ -8,18 +8,18 @@
       "language": "zh-CN",
       "chapters": 62,
       "images": 20,
-      "bytes": 2652171,
-      "sha256": "becfd423797e54ba97ef96b8b9fcda8b4fb049c30b2211a1bf8aee9bc9a283cd",
-      "sourceSha256": "0ca6264b70f6cdf09967d002a82addc29e00e75d963387ba788954a84310904f"
+      "bytes": 2657905,
+      "sha256": "fe09abdd7f360e77db081cdd07595051ce032fb75ceaf3e54fbf3c4dda8a2bf1",
+      "sourceSha256": "806716659be38da831d43074d6b42cbe5d4e1c0b7e2c7d4e64e0d46e6e8a4ad0"
     },
     "en-US": {
       "file": "life-level-up-guide-en.epub",
       "language": "en-US",
       "chapters": 62,
       "images": 20,
-      "bytes": 2621126,
-      "sha256": "def4fab16e0864ac373b73892342ad3771c5f0c85bf55302c1518c896044f36b",
-      "sourceSha256": "273dad5d0f17810ae7ffd43008585300f9bb662f93808dc5cff43a8a297997ab"
+      "bytes": 2626480,
+      "sha256": "5510a00163d1d75e78b21e696e2bad5a3a703391eecd9c32bc780e948bf91a3e",
+      "sourceSha256": "132edd6948e7db2ab6200f18321486cc0d47d6ef3d0d1b1dcef2226b8836f370"
     }
   }
 }

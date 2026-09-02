@@ -8,6 +8,10 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual homepage recommendation for the user-supplied `OpenHuge_ai` Telegram channel as an optional AI-resource discovery source, with explicit third-party, volatility, source, privacy, copyright, and security boundaries.
+- Rebuilt the bilingual Writing chapter around a real audience, unaided draft, fact and responsibility ledger, document skeleton, translation meaning contrast, five risk-ordered revision passes, feedback uptake, AI disclosure and limits, asynchronous handover, honest authorship, and a fourteen-day transfer experiment.
+- Expanded the bilingual Writing Evidence Card to preserve raw drafts, sources and permissions, translation changes, revision reasons, reader retelling, feedback decisions, automated-tool use, asynchronous acceptance, delayed transfer, and the decision to sign.
+- Connected the new accountable-writing path through the home pages, Reader's Guide, Toolkit, glossary, AI-English, Job-search English, search budgets, research attribution, and regression coverage while removing duplicated legacy prose from the English chapter.
 - Rebuilt the bilingual Reading chapter around real tasks, a timed first-pass baseline, six-layer barrier diagnosis, five question-specific passes, technical documentation verification, translation boundaries, intensive/extensive/narrow reading, source comparison, AI limits, real output, and a fourteen-day transfer experiment.
 - Expanded the bilingual Reading Evidence Card to capture source version, first pass, barrier map, claims and evidence, technical fact checks, unknown-word decisions, source comparison, delivery, and day-fourteen transfer.
 - Removed volatile book/community recommendation sections from the reading method and connected the new documentation-and-delivery path through the home pages, Reader's Guide, Toolkit, glossary, AI-English, search budgets, attribution, and regression tests.

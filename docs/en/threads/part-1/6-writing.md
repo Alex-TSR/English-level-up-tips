@@ -1,178 +1,249 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
-description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
+description: Begin with a real audience and unaided draft, then train intention, facts, structure, register, feedback uptake, translation boundaries, AI collaboration, asynchronous handover, and authorship responsibility.
 updated: 2026-09-02
+sources_checked: 2026-09-02
 ---
 
 # Writing: From Draft to Verifiable Revision
 
-Source (Chinese edition): [Writing](../../../threads/part-1/6-writing.md)
+This guide began in 2017. I wanted to share how I learned English and wrote down experiences with vocabulary, listening, reading, and speaking. A friend later joked that I was "the Markdown engineer with many stars." Between relationships, startups, failure, and disruption, however, writing also stopped.
 
-Welcome to the writing chapter of *Life Level-up Guide*.
+After returning, I began to understand writing differently. It is not decoration applied to thought. It turns what one person wants another to understand, verify, decide, or continue into a form that can work after the author leaves.
 
-Writing is not decoration applied to thoughts. It is turning something you want another person to understand into a form they can read, answer, and use.
+I once wanted to remove the writing chapter because I did not feel successful enough to write one. A piece about a failed startup then received specific, thoughtful responses. Writing, I realised, need not wait for triumph. It can preserve what a person knew, misjudged, and carried at the time, allowing failure to face fact and readers after emotion recedes.
 
-This project began in 2017 as a way to share how I improved my English. It got more love than I expected (I even became “that markdown engineer with a lot of stars”), but after 2019 I basically stopped updating for a few years because I was young, busy with relationships, startups, and other restless experiments.
+![A real scene from the resort hotel project](../../../assets/hotel.jpg)
 
-Coming back to this chapter, I understand writing differently now. It is not decoration outside the English-learning path. It is how a person organizes experience, expresses judgment, repairs the self, and connects with opportunity. Language helps you see a wider world; writing helps you keep what you have seen.
+This chapter does not train paragraphs that sound like a model. It offers a traceable path: define audience and task, preserve an unpolished first draft, revise facts, structure, sentences, register, and delivery separately, record reasons for changes, let a reader retell or act, then change topic and audience to test transfer.
 
-## Quick Overview
+## Chapter at a Glance
 
-- read different forms to study structure, tone, and editorial choices;
-- finish a rough draft before asking for feedback;
-- use AI for diagnosis and comparison, not as a replacement for judgment;
-- let a title serve the work instead of spending readers’ trust for clicks.
+- Define audience, task, acceptance, and authorship responsibility before choosing form.
+- Preserve a timed unaided draft instead of allowing translation or AI to cover the starting point.
+- Separate facts, sources, inference, personal experience, and judgments waiting for evidence.
+- Give every paragraph a job before polishing sentences and style.
+- Use translation to compare meaning, never to decide tone, responsibility, and fact for the author.
+- Record accepted and rejected feedback with reasons, not only the final draft.
+- Use AI for diagnosis, reader simulation, and variation, not fabrication, authorship, or accountability.
+- Treat email, status, decision record, and cross-time-zone handover as complete writing tasks.
+- Track one real situation, one raw draft, and one parallel delivery for fourteen days.
 
-## Define the Writing Task First
+## 1. Define the Writing Task
 
-“Write an article” can mean explaining something to a colleague, helping someone choose, telling an experience, or making sense of a difficult season. Each task needs a different shape. State the task, audience, and acceptance condition before drafting.
+"Write a piece" may require very different structures:
 
-| Task | Conditions | Evidence of completion |
+| Task | Condition | Evidence of completion |
 | --- | --- | --- |
-| Explain | The audience lacks context; write 300–600 words on a timer | A reader can restate the point and next step |
-| Decide | At least two options and a clear deadline | The reader can see reasons, costs, limits, and a recommended action |
-| Narrate | Choose one concrete event without inventing another person’s mind | Timeline is clear; facts, feelings, and speculation are separated |
-| Reflect | Revisit an experience and label past information versus present interpretation | The piece proposes one testable next step instead of only a conclusion |
+| Explain | Audience lacks context; 300-600 words | Reader can retell the point, evidence, and next step |
+| Request | Relationship, resource, and deadline are clear | Reader knows what to do, when, and how to refuse or confirm |
+| Status update | No meeting supplement; asynchronous reader | Reader knows completed work, risk, block, owner, and next checkpoint |
+| Decide | At least two options with cost and deadline | Decision-maker sees evidence, cost, unknowns, recommendation, and exit |
+| Narrate | One concrete event without inventing another mind | Timeline is clear; fact, feeling, inference, and later interpretation differ |
+| Reflect | Revisit experience while separating then and now | Text proposes a testable next step rather than turning outcome into fate |
+| Handover | Next operator was not present | They can continue, inspect, and roll back using the document alone |
 
-Copy the [Writing Evidence Card](../../templates/writing-evidence.md) to keep task, draft, feedback, revisions, and delivery in one record.
+Before drafting, write four sentences: who reads, what they need to understand or complete, what evidence supports it, and which fact, privacy, permission, and responsibility boundaries cannot be crossed.
 
-## Write for Someone Specific
+Use the [Writing Evidence Card](../../templates/writing-evidence.md) to keep task, draft, sources, feedback, revision reasons, delivery, and delayed retest together.
 
-Before drafting, answer four questions:
+## 2. Preserve an Unpolished Draft
 
-| Element | Question |
-| --- | --- |
-| Audience | Who needs this, and what do they already know? |
-| Purpose | What should they understand, decide, or do afterward? |
-| Evidence | Which facts, examples, and sources support the judgment? |
-| Constraints | What are the limits of time, length, tone, privacy, and copyright? |
+Choose a real task and complete a first version in 15-25 minutes. You may write three to five keywords or a simple outline, but do not look up whole-sentence translations, ask AI to write, or delete failed paragraphs.
 
-If none of these is clear, write an outline first. Clear constraints help you remove attractive but irrelevant sentences.
+Record:
 
-![A resort hotel project used as an example in the author's writing journey](../../../assets/hotel.jpg)
+```markdown
+Real audience and relationship:
+Task, genre, and completion standard:
+Length and time limit:
+Dictionary, translation, sources, and AI allowed:
+Facts requiring verification:
+Privacy, copyright, confidentiality, and authorship boundary:
+Raw draft location:
+```
 
-Honestly, I once thought I should just drop the writing chapter. I didn’t feel qualified to talk about writing.
+The draft matters because it shows how you choose content, structure, and language before later support. When the first version comes directly from machine translation or a model, later comparison covers the ability that should have been observed.
 
-That changed recently, after I published a piece about a failed startup and got a surprising amount of attention. The replies I received were powerful—supportive, thoughtful, and motivating. So I decided to come back and finish this missing chapter.
+Before revising, state the one sentence the reader should remember, the fact you trust least, and the gap most likely hidden by attractive prose.
 
-Writing is both a skill and an art. It helps you express thoughts and emotions, share knowledge, and create value. But good writing is not a one-week project.
+## 3. Build a Fact and Responsibility Ledger
 
-This chapter isn’t about academic papers. It focuses on everyday writing—articles, posts, and practical communication. Here are a few ingredients that matter.
+Writing can change decisions, relationships, and resources. Separate content by evidence type:
 
----
+| Content | Minimum record | Common risk |
+| --- | --- | --- |
+| Verifiable fact | Primary source, version, date, and context | Staleness, quotation outside context, or distorted retelling |
+| Number/comparison | Definition, sample, time range, and baseline | Missing denominator, selection, or false precision |
+| Quotation | Original, speaker, location, and permission | Changed stance, wrong attribution, or rights breach |
+| Personal experience | What was known then and learned later | Memory presented as a complete record or luck as a rule |
+| Inference/advice | Reasoning chain, assumptions, risk, and counterexample | Judgment disguised as fact |
+| Information about others | Minimum necessary scope and clear permission | Identity exposure or invented inner life |
 
-## Read
+Keep a source ledger with claim, location, check date, confidence, publication permission, and evidence that would change it. Personal experience can be written without an external citation, but its evidence level still needs an honest name.
 
-Reading is the foundation. It teaches you styles, structure, voice, and technique—and it widens your perspective.
+## 4. Give Every Paragraph a Job
 
-Read widely, but read intentionally:
+Writer's block is often not missing vocabulary but an undecided relationship between information. Start with a small skeleton:
 
-- pick books/articles based on your interests and goals
-- learn to evaluate the author’s arguments, logic, and writing craft
+```markdown
+Problem facing the reader:
+My direct answer:
+Two or three supports:
+One concrete example or minimum fact:
+Limit, counterexample, or unknown:
+Reader's next step:
+```
 
----
+Label each paragraph: context, problem, claim, reason, evidence, example, turn, limit, request, decision, or handover. Split a paragraph doing four jobs; merge or remove three paragraphs doing one.
 
-## Practice
+Narrative also needs structure, but not a success template. State what happened, what was known, what you did, what followed, and how you interpret it now. STAR and similar frames should not manufacture victory. An unsuccessful result can remain a credible story.
 
-Practice is the core. It exposes your strengths and weaknesses, and helps you find your voice.
+## 5. Translation Is Not Authorship: Compare Meaning
 
-Practice with variety and purpose:
+Your strongest language can locate intention and complex concepts. Translation can expose differences. The problem begins when a translated version becomes a final text without author judgment.
 
-- choose topics that match your level and needs
-- review your own writing and keep polishing it
+| What I mean | My English first draft | Decision after comparison |
+| --- | --- | --- |
+| Fact, relationship, stance, and next step | Current unaided version | Meaning lost, strengthened, weakened, or invented |
 
-A useful 25-minute loop is:
+Check whether translation changes agent and responsibility, exaggerates certainty, alters negation or condition scope, turns politeness into ambiguity, or replaces a cultural/institutional concept with a false equivalent.
 
-1. 5 minutes: state the point, audience, and acceptance criteria;
-2. 12 minutes: write a rough draft without AI writing it for you;
-3. 5 minutes: remove repetition and add one fact or example;
-4. 3 minutes: record one problem to repair next time.
+For translation tasks, preserve source version, purpose, audience, glossary, non-equivalent terms, reviewer, and final owner. Natural is not automatically faithful or appropriate to the current register.
 
-Keep the rough draft. It is the comparison point that lets you see whether you actually improved.
+## 6. Five Revision Passes, One Question Each
 
-## Four Revision Passes
+Do not revise fact, structure, grammar, and punctuation simultaneously. Work in risk order.
 
-Do not fix every problem at once. Pass through the piece in this order:
+### Pass One: Task and Fact
 
-1. **Purpose and facts**: does it answer the task? Can numbers, dates, quotations, and sources be checked?
-2. **Structure and evidence**: does each paragraph have a job? Do claims, examples, and limitations match?
-3. **Sentences and voice**: remove repetition and filler; tune transitions, tone, and rhythm while keeping your judgment.
-4. **Delivery and boundaries**: check title, links, citations, privacy, copyright, format, and the reader’s next step.
+Does the text answer the task? Can numbers, dates, people, quotations, and sources be checked? Is a condition required for the reader's decision missing?
 
-Record the one change that most affects the task in each pass. If you cannot explain why a change helps, keep the previous version and return to the feedback question.
+### Pass Two: Structure and Evidence
 
----
+Does each paragraph have one clear job? Does evidence support the claim? Does the example carry the conclusion? Does the limit arrive before the decision?
 
-## Discuss
+### Pass Three: Sentence and Meaning
 
-Discussion is a catalyst. Feedback helps you see blind spots; sharing helps you clarify your thinking.
+Are agent, action, time, condition, negation, reference, and certainty clear? Move a recurring meaning-changing structure into the [Grammar Evidence Card](../../templates/grammar-evidence.md) for delayed testing.
 
-Do it proactively and sincerely:
+### Pass Four: Register and Voice
 
-- show your work
-- respect other people’s work
+Is a change a correction, ambiguity repair, register choice, or style preference? Remove filler without erasing position. Politeness does not hide the request; professionalism does not lengthen the sentence.
 
-Ask readers to do a specific job rather than “tell me if it is good”:
+### Pass Five: Delivery and Boundary
 
-> After reading, tell me the main point you heard, where you paused, which fact needs checking, and which sentence you would delete.
+Check title, subject, format, links, citations, attachments, privacy, copyright, permission, owner, deadline, and rollback. Can the reader continue when the author is offline?
 
-A reader’s retelling is stronger evidence than a vague like.
+For each pass, record only one to three changes that most affect the result. Keep before, after, and reason. Do not accept a change you cannot explain automatically.
 
----
+## 7. Move Feedback into the Next Draft
 
-## Tools
+Do not ask only "Is it good?" Give the reviewer a job:
 
-AI can diagnose structure, simulate a reader, check omissions, and generate parallel exercises. Do not begin by asking it to rewrite the whole piece. Give it your version, ask for the three problems that most affect the purpose, revise yourself, and only then compare alternatives.
+```markdown
+Retell the main point, evidence, and next step first.
+Mark where you had to guess, evidence is weak, or register mismatches the relationship.
+Separate correction, ambiguity, register choice, and style preference.
+Do not rewrite the whole text. Name the three issues that most affect the task.
+```
 
-> For example, this chapter has used AI suggestions. Product screenshots age quickly and can hide the quality of the unaided draft, so this edition keeps the method and revision record rather than old interface images.
+Decide on each item: accept, partly accept, reject, or defer, with a reason. Readers reveal blind spots but also bring different knowledge, identity, and preference. Feedback is not an order; rejection cannot rely only on pride.
 
----
+L2 writing research shows that written corrective feedback and peer feedback can improve particular outcomes under many conditions. Proficiency, genre, time, task, and uptake affect the result. Improving an old draft is easier than independent use in a new task, so feedback must lead to a parallel text.
 
-## Innovation
+## 8. AI Is an Editorial Assistant, Not a Hidden Author
 
-Innovation is not making language strange on purpose. After the purpose is clear, find your own angle, examples, and rhythm. Help the reader understand first, then give them something to remember.
+AI can simulate readers, locate missing context, classify problems, check candidate citations, compare meaning between versions, generate counterexamples, and pose parallel tasks.
 
-### Honest Titles
+An auditable process:
 
-Titles can have tension, but they should not promise what the text cannot deliver.
+1. Preserve your task card, source ledger, and unaided draft.
+2. Ask for diagnosis before a full rewrite.
+3. Require reason, confidence, and possible error for suggestions.
+4. Rewrite item by item and record acceptance or rejection.
+5. Check fact, quotation, link, privacy, and register.
+6. Close AI and complete a parallel task on a new topic.
+7. Disclose use as required by institution, school, client, or hiring process.
 
-A reliable title matches the subject, scope, and conclusion. Attention purchased at the cost of trust is still a loss in the long run.
+Models may label acceptable variation as error, invent sources, erase voice, or make a false experience convincing. Never let them fabricate projects, customers, responsibilities, data, or outcomes. Do not use them to complete exams, applications, or take-home work where external assistance is prohibited.
 
-I want to remain an honest writer: the work may be imperfect, but it should not deliberately mislead.
+Average results from automated-writing-evaluation research support the possibility that tools aid feedback. They do not prove that a polished model sentence improved author ability. The test remains whether you can explain each change and complete a new task after the tool closes.
 
----
+## 9. Asynchronous Writing Must Keep Work Moving
 
-## CEFR Task Goals
+Remote work often has no immediate meeting to fill gaps. A useful update can follow:
 
-- **A1–A2**: write short messages, forms, personal descriptions, and simply connected sentences.
-- **B1**: write coherent experiences, email, or familiar-topic texts with basic reasons.
-- **B2**: organise detailed text for an audience, compare positions, and support them with relevant evidence.
-- **C1–C2**: adapt flexibly to complex purposes and registers, synthesise sources, and revise precisely.
+```markdown
+One-sentence conclusion:
+Completed work and evidence location:
+Current risk/block:
+Who must decide what, by when:
+Next step and owner:
+What happens if no response arrives:
+```
 
-Remote roles test writing as work: recruiter follow-up, take-home explanation, project status, risk, decision, and cross-time-zone handover must remain usable without another meeting. Continue to [Job-search English](8-job-search-english.md) and use the [Job-search English Evidence Card](../../templates/interview-evidence.md) so a real reader can retell what happened, what needs a decision, and who continues when.
+Subject lines such as `[Decision by 15:00 UTC]`, `[Blocked]`, and `[FYI]` should route attention without inventing urgency. Test attachment, link, and permission before sending.
 
-## Inspectable Practice and Feedback
+A handover includes current state, verified facts, unfinished work, failure/rollback, environment/version, owner, and next checkpoint. Writing reduces collaboration's dependence on the author being online.
 
-State audience, purpose, and criteria; produce a timed draft without AI; review facts and task before structure, paragraphs, sentences, and wording; rewrite it yourself; complete a parallel task one week later.
+## 10. Honest Titles, Citation, and Authorship
 
-At sentence level, separate necessary correction, ambiguity, register choice, and style preference. When one structure repeatedly changes time, responsibility, condition, or certainty, use the [Grammar Evidence Card](../../templates/grammar-evidence.md) to preserve the original, revision, and reason, then retest without prompts in a new text.
+A title may carry tension but cannot promise what the text does not deliver. Citation lets the reader return to the original location; paraphrase cannot erase another person's contribution. In collaborative writing, agree who supplied material, drafted, verified, approved, and owns the final result.
 
-Score 0–2 for purpose, structure, evidence/detail, accuracy/range, and revision transfer. Keep draft, annotations, and final instead of showing only tool-polished work.
+A signature means: I will name whose words these are, what supports them, who may be affected, and what remains uncertain. AI, editors, and peers may participate, but the publisher cannot leave responsibility inside a tool window.
 
-Use the [Evidence Chain Template](../../templates/evidence-chain.md) to place the draft, immediate revision, delayed writing, and parallel task side by side instead of treating the final as the whole ability.
+I want to remain an honest writer: allow an imperfect version and later correction, but do not mislead or let fluency hide missing evidence.
 
-## Seven Days, Thirty Days, Twelve Weeks
+## 11. A Fourteen-Day Writing Experiment
 
-- **Seven days**: complete a real email, an explanation, and a 200–300 word text, each with one revision.
-- **Thirty days**: one real deliverable weekly plus a personal recurring-error checklist; repeat the baseline prompt on day 30.
-- **Twelve weeks**: progress to a multi-source article, report, or application; finish with blind reader feedback and fact, citation, and privacy review.
+| Day | Action | Evidence |
+| --- | --- | --- |
+| 1 | Choose a real audience and task; complete a timed draft | Raw text, conditions, intention, and unknowns |
+| 2 | Build fact and responsibility ledger | Claims, sources, permission, and confidence |
+| 3 | Label paragraph jobs and document skeleton | Structure map and deletions |
+| 4 | Compare first-language intention, English draft, and translation | Meaning changes and decision reasons |
+| 5 | Revise task, fact, and evidence | Second version and source checks |
+| 6 | Revise sentence, register, and voice | Before/after plus classification |
+| 7 | Ask a real reader to retell | Main point, questions, and next step |
+| 8 | Record feedback acceptance and rejection | Uptake table |
+| 9 | Complete delivery and boundary check | Links, attachments, permissions, and owner |
+| 10 | Rewrite the same information for a new audience | Register and structure transfer |
+| 11 | Write the same genre on a new topic | Vocabulary and content transfer |
+| 12 | Let AI or a peer propose an omission/counterexample | Verification and rejection reason |
+| 13 | Complete an async update or handover under time pressure | Real-use result |
+| 14 | Close tools, complete a parallel task, and choose next cycle | Evidence to keep, adjust, or move on |
 
-Pair this chapter with [Artifacts: Turn Learning into Something Made](../part-3/4-artifacts-and-delivery.md) to keep draft, feedback, and final delivery in one evidence chain.
+Fourteen days is not a writing-fluency deadline. It asks whether, without the familiar draft and immediate polish, after audience or topic changes, you can still deliver a text you are willing to sign and another person can use.
+
+## 12. Evidence That Writing Is Becoming Ability
+
+- You can leave your own timed draft instead of only a tool-produced artifact.
+- A reader can retell purpose, evidence, limits, and next step.
+- You separate fact, source, inference, personal experience, and advice.
+- Each paragraph has a job; removing an attractive sentence does not destroy the line.
+- You can explain what translation or AI changed in meaning.
+- You distinguish correction, ambiguity, register, and style and explain the decision.
+- Feedback enters a new text instead of only polishing the old one.
+- An asynchronous reader can continue, decide, or roll back without another meeting.
+- The method transfers across audience, topic, and genre.
+- You accept responsibility for title, citation, privacy, fact, and authorship.
+
+Writing improvement sometimes means not more beautiful sentences but less guessing by the reader. You know when to provide a fact, admit an unknown, and remove a line serving only self-image. The text begins to work after the author leaves and preserve a self that can be checked after time passes.
+
+## Sources and Boundaries
+
+- [Kang & Han (2015), The Efficacy of Written Corrective Feedback in Improving L2 Written Accuracy](https://api.crossref.org/works/10.1111%2Fmodl.12189): the meta-analysis synthesises 21 studies and reports that written corrective feedback may improve L2 grammatical accuracy, with proficiency, setting, and genre among the mediating variables.
+- [Vuogan & Li (2022), Examining the Effectiveness of Peer Feedback in Second Language Writing](https://api.crossref.org/works/10.1002%2Ftesq.3178): the meta-analysis aggregates 26 studies and reports an overall positive effect, while source comparisons and some moderator conclusions remain limited by the primary-study count.
+- [Zhai & Ma (2022), The Effectiveness of Automated Writing Evaluation on Writing Quality](https://api.crossref.org/works/10.1177%2F07356331221127300): the meta-analysis covers 26 studies and 2,468 participants, reporting average effects and differences by education level, language background, and genre; it does not make every tool output reliable.
+- Writing task, genre, audience, institutional rules, copyright, and acceptable AI use change. Important text should return to current facts, primary sources, real readers, and a named accountable owner.
+
+Related entry points: [Grammar](grammar.md) | [Reading](4-reading.md) | [Speaking](5-speaking.md) | [Learning English with AI](7-ai.md) | [Job-search English](8-job-search-english.md) | [Writing Evidence Card](../../templates/writing-evidence.md) | [Artifacts](../part-3/4-artifacts-and-delivery.md)
 
 ## Closing: Write the Version You Are Willing to Sign
 
-The world is already noisy. Writing does not need to add more noise. It can preserve a quiet place in life that can be revisited, and let a judgment continue meeting facts, readers, and time after the immediate emotion has passed.
+The world is noisy enough. Writing can preserve a quiet place where life remains visible and a judgment continues to face fact, readers, and time after its first emotion has passed.
 
-A draft records what you were able to think then. Revision records whether you allowed new evidence and another person's understanding to change you. The writing need not become perfect at once, but every version prepared for delivery should answer more honestly: whose words are these, what supports them, who may be affected, and what remains uncertain?
+A draft records what you could think then. Revision records whether you allowed new evidence and another person's understanding to change you. The writing need not become perfect at once, but every version prepared for delivery should answer more honestly: whose words are these, what supports them, who may be affected, and what remains uncertain?
 
-If you do not know where to start, write a real email, a three-minute explanation, or a 200-word note. Give it to one real person and ask what they understood. Revise until you are willing to sign it, carry its consequences, and open it again in the future.
+If you do not know where to begin, write a real email, an explanation, or a 200-word note. Give it to one person and ask what they understood. Revise until you are willing to sign it, carry its consequences, and open it again in the future.

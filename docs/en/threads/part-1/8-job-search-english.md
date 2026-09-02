@@ -217,6 +217,8 @@ Owner and next update:
 
 Write the first version in twenty minutes without AI. Ask a reader only: what happened, what needs a decision, and who continues when? If another meeting is required just to understand the note, the writing has not completed the asynchronous task.
 
+This writing should preserve your own draft, fact sources, AI-use boundary, and revision reasons. Use the [Writing Evidence Card](../../templates/writing-evidence.md) to check subject line, conclusion, evidence location, risk, owner, no-response handling, and rollback. A polished application or handover built on invented experience, concealed ghostwriting, or changes the author cannot explain is not accountable ability.
+
 ## 9. AI May Simulate; It Cannot Supply Integrity
 
 AI is useful for:
@@ -297,7 +299,7 @@ When feedback exists, preserve the exact wording. Do not turn a polite rejection
 - [Council of Europe: CEFR 3.3 Global Scale](https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale). This chapter uses levels as language-task coordinates, not a universal hiring cut-off.
 - Interview process, AI use, recording, confidentiality, identity, region, and work-authorisation rules vary. Follow the current job notice, formal agreements, and applicable requirements.
 
-Related entry points: [CEFR Goals and Self-check](0-cefr.md) | [Speaking](5-speaking.md) | [Writing](6-writing.md) | [Job-search English Evidence Card](../../templates/interview-evidence.md)
+Related entry points: [CEFR Goals and Self-check](0-cefr.md) | [Speaking](5-speaking.md) | [Writing](6-writing.md) | [Writing Evidence Card](../../templates/writing-evidence.md) | [Job-search English Evidence Card](../../templates/interview-evidence.md)
 
 ## Closing: Let Ability Reach the Real Conversation
 

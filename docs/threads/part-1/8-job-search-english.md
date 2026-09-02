@@ -217,6 +217,8 @@ Owner and next update:
 
 用二十分钟写完第一版，不让 AI 代写。请读者只回答：发生了什么，什么需要决定，谁在什么时候继续。如果对方必须再开一次会才能理解，写作还没有完成异步任务。
 
+这类文字要保留自己的初稿、事实来源、AI 使用边界和修改理由。用[写作证据卡](../../templates/writing-evidence.md)检查主题行、结论、证据位置、风险、责任人、无回应处理和回滚；一份漂亮的申请或交接若依赖虚构经历、隐形代写或作者无法解释的修改，就不属于可署名能力。
+
 ## 9. AI 可以模拟，不能替你获得诚信
 
 AI 适合：
@@ -297,7 +299,7 @@ AI 不适合：
 - [Council of Europe：CEFR 3.3 Global Scale](https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale)，本章只把等级作为语言任务坐标，不把它写成任何公司的统一录用线。
 - 岗位流程、AI 使用、录音、保密、身份、地区和工作资格规则因公司与地区而异，应以当前招聘说明、正式协议和适用要求为准。
 
-相关入口：[CEFR 目标与自测](0-cefr.md) ｜ [口语篇](5-speaking.md) ｜ [写作篇](6-writing.md) ｜ [求职英语证据卡](../../templates/interview-evidence.md)
+相关入口：[CEFR 目标与自测](0-cefr.md) ｜ [口语篇](5-speaking.md) ｜ [写作篇](6-writing.md) ｜ [写作证据卡](../../templates/writing-evidence.md) ｜ [求职英语证据卡](../../templates/interview-evidence.md)
 
 ## 结语：让能力抵达那场真实对话
 
