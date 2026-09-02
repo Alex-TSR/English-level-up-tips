@@ -79,9 +79,9 @@ Smallest next task:
 
 At the end choose one or two errors that most affect communication and do a parallel task. Do not collect fifteen suggestions without using them again.
 
-## 3. Vocabulary: From Recognition to Use
+## 3. Vocabulary: From Familiarity to Retrieval in Real Tasks
 
-Choose 8–12 high-value chunks from authentic material each week. Save pronunciation, part of speech, collocations, the original sentence, your own sentence, a close alternative, and one retrieval attempt.
+Choose 5–8 high-value chunks from authentic material each week. Preserve a no-lookup first encounter, then save current sense, pronunciation, part of speech, collocations, the original sentence, your own sentence, a close alternative, and one retrieval attempt. Decide whether each unknown should be skipped, inferred, looked up, learned deliberately, or professionally verified.
 
 AI can generate cloze, correction, and substitution tasks, but check meanings, collocations, and examples against a learner dictionary or real corpus. Schedule four contacts: understand and read aloud on day one, retrieve and make a sentence on day two, use it in speech or email within a week, and transfer it to a new situation after two weeks.
 

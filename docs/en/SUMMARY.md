@@ -74,7 +74,7 @@
 - [English Diagnostic](templates/english-diagnostic.md)
 - [Job-search English Evidence Card](templates/interview-evidence.md)
 - [Grammar Evidence Card](templates/grammar-evidence.md)
-- [Vocabulary Audit](templates/vocabulary-audit.md)
+- [Vocabulary Evidence Card](templates/vocabulary-audit.md)
 - [Listening Evidence Card](templates/listening-audit.md)
 - [Reading Evidence Card](templates/reading-evidence.md)
 - [Speaking Evidence Card](templates/speaking-evidence.md)

@@ -40,6 +40,9 @@ Find the task you are facing, then follow “definition → evidence → next st
 | --- | --- | --- |
 | **Retrieval practice** | Close the source and answer, retell, write, or perform from memory | [Learning Principles](../threads/part-1/1-understanding.md) |
 | **Distributed practice** | Return at multiple points instead of cramming once | [Vocabulary](../threads/part-1/2-vocabulary.md) |
+| **Unknown-item decision queue** | Decide whether to skip, infer, look up, learn, or professionally verify each unknown and record why | [Vocabulary Evidence Card](../templates/vocabulary-audit.md) |
+| **Eight vocabulary dimensions** | Separate form, sound, current sense, collocation, grammar, register, concept boundary, and retrieval condition | [Vocabulary](../threads/part-1/2-vocabulary.md) |
+| **Receptive / productive vocabulary** | Receptive knowledge understands in listening/reading; productive knowledge retrieves in speaking/writing without the answer displayed | [Vocabulary](../threads/part-1/2-vocabulary.md) |
 | **Form–meaning choice** | Treat grammar as a choice that changes time, participants, condition, negation scope, logic, or certainty rather than only a rule label | [Grammar](../threads/part-1/grammar.md) |
 | **Grammar contrast card** | Preserve an original sentence, likely interpretation, intended meaning, form contrast, revision reason, and delayed retest for one real task | [Grammar Evidence Card](../templates/grammar-evidence.md) |
 | **Reference variety** | A relatively stable dictionary-audio, spelling, or pronunciation reference chosen to reduce early decisions; it does not rank other English varieties below it | [Speaking](../threads/part-1/5-speaking.md) |
@@ -79,6 +82,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Listening Evidence Card** | Connect material conditions, a no-caption first pass, six-layer error map, caption scaffolds, meaning reconstruction, action output, and parallel-material transfer | [Listening Evidence Card](../templates/listening-audit.md) |
 | **Reading Evidence Card** | Connect source version, first pass, six-layer barrier map, claims/evidence, technical facts, source comparison, real output, and delayed transfer | [Reading Evidence Card](../templates/reading-evidence.md) |
 | **Writing Evidence Card** | Connect real audience, unaided draft, fact sources, translation changes, five revision passes, feedback uptake, AI use, async delivery, and authorship responsibility | [Writing Evidence Card](../templates/writing-evidence.md) |
+| **Vocabulary Evidence Card** | Connect a real task, first encounter, unknown-item decisions, eight-dimensional verification, unaided retrieval, error repair, and delayed transfer | [Vocabulary Evidence Card](../templates/vocabulary-audit.md) |
 | **Speaking Evidence Card** | A private record connecting reference variety, three unscripted baselines, listener retelling, comprehension effort, interaction repair, unfamiliar follow-ups, and delayed transfer | [Speaking Evidence Card](../templates/speaking-evidence.md) |
 | **Interaction repair** | When hearing, scope, or knowledge is incomplete, request repetition, confirm, ask for thinking time, and summarise agreement | [Speaking](../threads/part-1/5-speaking.md) · [Job-search English](../threads/part-1/8-job-search-english.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |

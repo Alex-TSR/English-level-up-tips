@@ -363,6 +363,34 @@ test("reading turns word-by-word translation into verification and delivery", ()
   }
 });
 
+test("vocabulary turns card familiarity into contextual retrieval", () => {
+  const cases = [
+    {
+      chapter: "threads/part-1/2-vocabulary.md",
+      card: "templates/vocabulary-audit.md",
+      chapterTerms: ["保存一次未经修饰的首遇", "为未知项做五种决定", "一个词至少包含八个问题", "十四天词汇实验"],
+      cardTerms: ["保存未经查词的首遇", "建立未知项决策队列", "记录八个维度", "做延迟保持与迁移"],
+    },
+    {
+      chapter: "en/threads/part-1/2-vocabulary.md",
+      card: "en/templates/vocabulary-audit.md",
+      chapterTerms: ["Preserve an Unpolished First Encounter", "Make Five Decisions about Unknown Items", "One Word Contains at Least Eight Questions", "A Fourteen-Day Vocabulary Experiment"],
+      cardTerms: ["Preserve a No-Lookup First Encounter", "Build an Unknown-Item Decision Queue", "Record Eight Dimensions", "Test Delayed Retention and Transfer"],
+    },
+  ];
+
+  for (const { chapter, card, chapterTerms, cardTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const cardText = readFileSync(resolve(process.cwd(), "docs", card), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of cardTerms) expect(cardText, card).toContain(term);
+    expect(chapterText).toContain("api.crossref.org/works/10.3138%2Fcmlr.63.1.59");
+    expect(chapterText).toContain("vocabulary-audit.md");
+    expect(cardText).toContain("part-1/2-vocabulary.md");
+    expect((chapterText.match(/https?:\/\//g) || []).length, chapter).toBeLessThanOrEqual(8);
+  }
+});
+
 test("writing turns tool polish into accountable revision and delivery", () => {
   const cases = [
     {
@@ -448,7 +476,7 @@ test("page metadata follows the route", async ({ page }) => {
     author: { "@type": "Person", name: "韩先凯" },
     isPartOf: { "@type": "Book", name: "人生进阶指南", url: "https://byoungd.github.io/up/" },
   });
-  expect(chapterData.dateModified).toBe("2026-09-01");
+  expect(chapterData.dateModified).toBe("2026-09-02");
 });
 
 test("home metadata follows the lifelong-learning positioning", async ({ page }) => {
@@ -815,6 +843,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /阅读篇：从逐词翻译到观点与证据/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("阅读证据卡：从读完摘要到真实交付");
   await expect(zhSearchBox.getByRole("link", { name: /阅读证据卡：从读完摘要到真实交付/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("词汇篇：从眼熟到在真实任务中调用");
+  await expect(zhSearchBox.getByRole("link", { name: /词汇篇：从眼熟到在真实任务中调用/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("词汇证据卡：从卡片眼熟到情境调用");
+  await expect(zhSearchBox.getByRole("link", { name: /词汇证据卡：从卡片眼熟到情境调用/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作篇：从初稿到可验证修订");
   await expect(zhSearchBox.getByRole("link", { name: /写作篇：从初稿到可验证修订/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作证据卡：从工具润色到署名交付");
@@ -850,6 +882,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Reading: From Word-by-word Translation to Claims and Evidence/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Reading Evidence Card: From Finished Summary to Real Delivery");
   await expect(enSearchBox.getByRole("link", { name: /Reading Evidence Card: From Finished Summary to Real Delivery/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Vocabulary: From Familiarity to Retrieval in Real Tasks");
+  await expect(enSearchBox.getByRole("link", { name: /Vocabulary: From Familiarity to Retrieval in Real Tasks/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Vocabulary Evidence Card: From Card Familiarity to Contextual Retrieval");
+  await expect(enSearchBox.getByRole("link", { name: /Vocabulary Evidence Card: From Card Familiarity to Contextual Retrieval/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing: From Draft to Verifiable Revision");
   await expect(enSearchBox.getByRole("link", { name: /Writing: From Draft to Verifiable Revision/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing Evidence Card: From Tool Polish to Accountable Delivery");
@@ -1130,6 +1166,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(zhMain.getByRole("link", { name: "口语证据卡", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力证据卡", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "阅读证据卡", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "词汇证据卡", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "写作证据卡", exact: true }).first()).toBeVisible();
 
   await page.goto("./en/templates/toolkit");
@@ -1144,6 +1181,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Speaking Evidence Card", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening Evidence Card", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Reading Evidence Card", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Vocabulary Evidence Card", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Writing Evidence Card", exact: true }).first()).toBeVisible();
 });
 
@@ -1405,6 +1443,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(zhMain.getByRole("link", { name: "口语证据卡", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力篇：从声音辨认到真实理解", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力证据卡", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "词汇篇：从眼熟到在真实任务中调用", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "词汇证据卡", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "阅读篇：从逐词翻译到观点与证据", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "阅读证据卡", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "写作篇：从初稿到可验证修订", exact: true })).toBeVisible();
@@ -1425,6 +1465,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Speaking Evidence Card", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening: From Sound Recognition to Real Understanding", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening Evidence Card", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Vocabulary: From Familiarity to Retrieval in Real Tasks", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Vocabulary Evidence Card", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Reading: From Word-by-word Translation to Claims and Evidence", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Reading Evidence Card", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Writing: From Draft to Verifiable Revision", exact: true })).toBeVisible();

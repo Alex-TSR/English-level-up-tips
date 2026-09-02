@@ -22,7 +22,7 @@ updated: 2026-09-02
 | 有样本却说不清是否真的改变 | [证据链](evidence-chain.md) | [证据篇](../threads/part-3/5-evidence-and-transfer.md) | 不能把一次顺利表现推成稳定能力 |
 | 读完有感触，却不知道七天后是否留下什么 | [读者实践回执](reader-field-note.md) | [证据链](evidence-chain.md) | 不能把一次个人体验推成普遍效果 |
 | 正在帮助初中阶段的孩子学习 | [家庭学习共同协议](family-learning-agreement.md) | [家庭学习篇](../threads/part-4/family-learning.md) | 不能替孩子选择人生、替代学校或诊断困难 |
-| 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
+| 单词认识却不会使用 | [词汇证据卡](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 规则似乎懂了，真实表达仍反复出错 | [语法证据卡](grammar-evidence.md) | [语法篇](../threads/part-1/grammar.md) | 不能把一次改对、风格偏好或 AI 润色当成稳定语法能力 |
 | 收藏了很多音频，仍靠字幕或不知道每一遍做什么 | [听力证据卡](listening-audit.md) | [听力篇](../threads/part-1/3-listening.md) | 不能把播放时长、重复次数、字幕理解或跟读顺畅当成稳定听力 |
 | 技术文档读得慢、逐词翻译或读完无法交付 | [阅读证据卡](reading-evidence.md) | [阅读篇](../threads/part-1/4-reading.md) | 不能把页数、划线数量、翻译或工具摘要当成独立理解与验证 |

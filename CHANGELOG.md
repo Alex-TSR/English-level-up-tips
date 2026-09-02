@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Rebuilt the bilingual Vocabulary chapter and Evidence Card around real-task baselines, five decisions for unknown items, eight dimensions of word knowledge, receptive/productive gaps, coverage-number limits, performance-adjusted spacing, error repair, AI verification, and fourteen-day transfer.
+- Connected the vocabulary path through search indexing, Reader's Guide, AI-English, glossary, attribution, technical word-list boundaries, and regression tests so card familiarity is not treated as contextual ability.
 - Added a bilingual homepage recommendation for the user-supplied `OpenHuge_ai` Telegram channel as an optional AI-resource discovery source, with explicit third-party, volatility, source, privacy, copyright, and security boundaries.
 - Rebuilt the bilingual Writing chapter around a real audience, unaided draft, fact and responsibility ledger, document skeleton, translation meaning contrast, five risk-ordered revision passes, feedback uptake, AI disclosure and limits, asynchronous handover, honest authorship, and a fourteen-day transfer experiment.
 - Expanded the bilingual Writing Evidence Card to preserve raw drafts, sources and permissions, translation changes, revision reasons, reader retelling, feedback decisions, automated-tool use, asynchronous acceptance, delayed transfer, and the decision to sign.
