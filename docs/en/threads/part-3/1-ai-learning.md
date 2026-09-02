@@ -84,7 +84,7 @@ Without step one, AI turns a wish into an answer. Without step two, you cannot s
 
 ## One-page Task Brief
 
-Copy this into a private project directory. Redact sensitive material; never send passwords, identity documents, customer records, or third-party private data to a general model.
+Copy the complete [AI Task Brief](../../templates/ai-task-brief.md) into a private project directory. The block below keeps only the minimum fields. Redact sensitive material; never send passwords, identity documents, customer records, or third-party private data to a general model.
 
 ```markdown
 # AI Task Brief
@@ -155,7 +155,7 @@ For high-risk content, “not yet confirmed” is more professional than a fluen
 
 ## Three Comparisons: Prove What AI Changed
 
-Keep three samples of the same task:
+Use the [AI Learning Log](../../templates/ai-learning-log.md) to keep three samples of the same task:
 
 1. **Unaided baseline**: complete it independently and record time, quality, bottlenecks, and confidence;
 2. **Assisted version**: let AI do only the agreed work and record prompts, sources, accepted/rejected suggestions, and rework;

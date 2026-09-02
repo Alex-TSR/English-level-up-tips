@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Expanded the bilingual AI Task Brief and AI Learning Log into a governed workflow covering evaluation sets, human gates, data retention, cost, model scope, source verification, failure rollback, handover, independent production, speed debt, and delayed transfer.
+- Connected the AI work papers through the glossary and regression coverage so a model response cannot masquerade as a verified deliverable or independent learning.
 - Rebuilt the bilingual Learning Principles chapter and English Diagnostic around real deliveries, first-version conditions, error diagnosis, targeted repair, feedback uptake, performance-adjusted spacing, recovery and capacity modes, cross-session state, AI boundaries, and one-condition transfer.
 - Renamed the bilingual diagnostic's vocabulary entry as an evidence card and connected the general protocol through the Reader's Guide, glossary, search index, attribution register, and regression coverage.
 - Rebuilt the bilingual Vocabulary chapter and Evidence Card around real-task baselines, five decisions for unknown items, eight dimensions of word knowledge, receptive/productive gaps, coverage-number limits, performance-adjusted spacing, error repair, AI verification, and fourteen-day transfer.

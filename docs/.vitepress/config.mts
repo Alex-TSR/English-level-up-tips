@@ -67,6 +67,8 @@ function splitSearchSections(file: string, html: string) {
     "/templates/reading-evidence.md",
     "/templates/vocabulary-audit.md",
     "/templates/english-diagnostic.md",
+    "/templates/ai-task-brief.md",
+    "/templates/ai-learning-log.md",
     "/threads/part-4/family-learning.md",
     "/threads/part-1/8-job-search-english.md",
     "/threads/part-1/grammar.md",

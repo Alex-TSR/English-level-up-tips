@@ -19,6 +19,7 @@ updated: 2026-09-02
 | **真实问题** | 有具体场景、受影响的人和需要完成的动作，而不是“我想变好” | [认知篇](../threads/part-1/1-understanding.md) |
 | **场景** | 能力将在何时、何地、对谁被使用 | [CEFR 目标与自测](../threads/part-1/0-cefr.md) |
 | **完成标准** | 一个别人可以观察、复查或复述的结果 | [AI 任务简报](../templates/ai-task-brief.md) |
+| **评估集** | 用正常、边界、缺失/冲突和真实脱敏样本检查输出，而不是只展示模型擅长的例子 | [AI 任务简报](../templates/ai-task-brief.md) |
 | **主问题** | 一周只追踪的一个可回答问题 | [九十日行动篇](../threads/part-5/90-day-plan.md) |
 
 ## 证据与判断
@@ -90,7 +91,9 @@ updated: 2026-09-02
 | **互动修复** | 没听清、范围不明或暂时未知时，请求重复、确认、争取思考时间并总结共识 | [口语篇](../threads/part-1/5-speaking.md) · [求职英语篇](../threads/part-1/8-job-search-english.md) |
 | **作品** | 能被别人阅读、使用、质疑或改进的输出，不限于产品 | [作品篇](../threads/part-3/4-artifacts-and-delivery.md) |
 | **交付** | 在真实受众、用户或约束下完成并接受结果 | [九十日行动篇](../threads/part-5/90-day-plan.md) |
-| **人工门** | AI 可以协助，但事实、权限、隐私、成本和最终判断必须由人确认 | [AI 项目开发](../threads/part-3/2-ai-development-and-resource-layer.md) |
+| **人工门** | AI 可以协助，但来源、事实、权限、隐私、质量、成本和最终责任必须在发布或执行前由具名的人确认 | [AI 任务简报](../templates/ai-task-brief.md) · [AI 项目开发](../threads/part-3/2-ai-development-and-resource-layer.md) |
+| **速度债** | 通过缩短即时用时却增加返工、核验、沟通或事故风险而欠下的真实成本 | [AI 学习记录](../templates/ai-learning-log.md) |
+| **AI 学习记录** | 比较无 AI、辅助、延迟独立和平行任务，记录工具贡献与独立能力的私密工作纸 | [AI 学习记录](../templates/ai-learning-log.md) |
 | **回滚** | 失败时暂停、降级、切换或恢复到已知可用状态 | [AI 学习与项目实践](../threads/part-3/1-ai-learning.md) |
 
 ## 生活与边界

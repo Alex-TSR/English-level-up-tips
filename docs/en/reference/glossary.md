@@ -19,6 +19,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Real problem** | A situation with affected people and an action to complete, not “I want to improve” | [Learning Principles](../threads/part-1/1-understanding.md) |
 | **Context** | When, where, and for whom a skill will be used | [CEFR Goals and Self-check](../threads/part-1/0-cefr.md) |
 | **Acceptance standard** | An outcome another person can observe, check, or restate | [AI Task Brief](../templates/ai-task-brief.md) |
+| **Evaluation set** | Normal, boundary, missing/conflicting, and realistic redacted samples used to check output instead of showing only model-friendly examples | [AI Task Brief](../templates/ai-task-brief.md) |
 | **Main question** | One answerable question tracked for a week | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |
 
 ## Evidence and Judgment
@@ -90,7 +91,9 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Interaction repair** | When hearing, scope, or knowledge is incomplete, request repetition, confirm, ask for thinking time, and summarise agreement | [Speaking](../threads/part-1/5-speaking.md) · [Job-search English](../threads/part-1/8-job-search-english.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |
 | **Delivery** | Completing work under a real audience, user, or constraint and accepting the result | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |
-| **Human gate** | AI may assist, but a person confirms facts, permissions, privacy, cost, and final judgment | [AI Project Development](../threads/part-3/2-ai-development-and-resource-layer.md) |
+| **Human gate** | AI may assist, but named people confirm source, fact, permission, privacy, quality, cost, and final ownership before release or execution | [AI Task Brief](../templates/ai-task-brief.md) · [AI Project Development](../threads/part-3/2-ai-development-and-resource-layer.md) |
+| **Speed debt** | Real cost owed when shorter immediate time creates more rework, verification, communication, or incident risk | [AI Learning Log](../templates/ai-learning-log.md) |
+| **AI Learning Log** | A private sheet comparing unaided, assisted, delayed-independent, and parallel tasks to record tool contribution and owned ability | [AI Learning Log](../templates/ai-learning-log.md) |
 | **Rollback** | Pause, degrade, switch, or return to a known usable state after failure | [AI Learning and Project Practice](../threads/part-3/1-ai-learning.md) |
 
 ## Life and Boundaries

@@ -419,6 +419,33 @@ test("learning principles turn effort into a complete evidence loop", () => {
   }
 });
 
+test("AI work papers keep evaluation, human gates, and independent transfer visible", () => {
+  const cases = [
+    {
+      brief: "templates/ai-task-brief.md",
+      log: "templates/ai-learning-log.md",
+      briefTerms: ["输入、来源与数据边界", "输出与评估集", "人工门", "失败、暂停与回滚", "开始前检查"],
+      logTerms: ["无 AI 基线", "交互与来源核验", "三次对照", "延迟保持与交接", "下一周期决定"],
+    },
+    {
+      brief: "en/templates/ai-task-brief.md",
+      log: "en/templates/ai-learning-log.md",
+      briefTerms: ["Inputs, Sources, and Data Boundary", "Output and Evaluation Set", "Human Gates", "Failure, Pause, and Rollback", "Preflight Check"],
+      logTerms: ["Unaided Baseline", "Interaction and Source Verification", "Three Comparisons", "Delayed Retention and Handover", "Next Cycle Decision"],
+    },
+  ];
+
+  for (const { brief, log, briefTerms, logTerms } of cases) {
+    const briefText = readFileSync(resolve(process.cwd(), "docs", brief), "utf8");
+    const logText = readFileSync(resolve(process.cwd(), "docs", log), "utf8");
+    for (const term of briefTerms) expect(briefText, brief).toContain(term);
+    for (const term of logTerms) expect(logText, log).toContain(term);
+    expect(briefText).toContain("AI Task Brief");
+    expect(logText).toContain("AI Learning Log");
+    expect(logText).toContain("evidence-chain.md");
+  }
+});
+
 test("writing turns tool polish into accountable revision and delivery", () => {
   const cases = [
     {
@@ -879,6 +906,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /认知篇：把努力变成可验证的学习/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("英语能力诊断：四项基线与迁移记录");
   await expect(zhSearchBox.getByRole("link", { name: /英语能力诊断：四项基线与迁移记录/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("AI 任务简报：从问题到人工验收");
+  await expect(zhSearchBox.getByRole("link", { name: /AI 任务简报：从问题到人工验收/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("AI 学习记录：从工具协作到独立能力");
+  await expect(zhSearchBox.getByRole("link", { name: /AI 学习记录：从工具协作到独立能力/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作篇：从初稿到可验证修订");
   await expect(zhSearchBox.getByRole("link", { name: /写作篇：从初稿到可验证修订/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作证据卡：从工具润色到署名交付");
@@ -922,6 +953,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Learning Principles: Turn Effort into Verifiable Learning/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("English Diagnostic: Four-skill Baseline and Transfer Record");
   await expect(enSearchBox.getByRole("link", { name: /English Diagnostic: Four-skill Baseline and Transfer Record/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("AI Task Brief: From Problem to Human Acceptance");
+  await expect(enSearchBox.getByRole("link", { name: /AI Task Brief: From Problem to Human Acceptance/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("AI Learning Log: From Tool Collaboration to Independent Ability");
+  await expect(enSearchBox.getByRole("link", { name: /AI Learning Log: From Tool Collaboration to Independent Ability/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing: From Draft to Verifiable Revision");
   await expect(enSearchBox.getByRole("link", { name: /Writing: From Draft to Verifiable Revision/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing Evidence Card: From Tool Polish to Accountable Delivery");
