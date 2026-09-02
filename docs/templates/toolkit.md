@@ -24,7 +24,8 @@ updated: 2026-09-02
 | 正在帮助初中阶段的孩子学习 | [家庭学习共同协议](family-learning-agreement.md) | [家庭学习篇](../threads/part-4/family-learning.md) | 不能替孩子选择人生、替代学校或诊断困难 |
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 规则似乎懂了，真实表达仍反复出错 | [语法证据卡](grammar-evidence.md) | [语法篇](../threads/part-1/grammar.md) | 不能把一次改对、风格偏好或 AI 润色当成稳定语法能力 |
-| 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
+| 收藏了很多音频，仍靠字幕或不知道每一遍做什么 | [听力证据卡](listening-audit.md) | [听力篇](../threads/part-1/3-listening.md) | 不能把播放时长、重复次数、字幕理解或跟读顺畅当成稳定听力 |
+| 读完说不清主张、证据或推断边界 | [阅读证据卡](reading-evidence.md) | [阅读篇](../threads/part-1/4-reading.md) | 不能把划线数量或工具摘要当成独立阅读判断 |
 | 只在背稿时流畅、害怕口音或遇到追问就卡住 | [口语证据卡](speaking-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) | 不能把口音相似度、语音识别分数或一次重录当成稳定互动能力 |
 | 写不出来或只能展示工具润色后的成品 | [写作证据卡](writing-evidence.md) | [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实读者面前的写作与修订迁移 |
 | 不知道怎样让 AI 参与 | [AI 任务简报](ai-task-brief.md) | [AI 学习记录](ai-learning-log.md) | 不能把模型回答自动变成事实或最终判断 |

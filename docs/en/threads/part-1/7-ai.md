@@ -49,7 +49,7 @@ Score task completion, comprehensibility, accuracy and range, organisation and f
 
 | Skill | AI may assist with | Evidence kept after closing AI |
 | --- | --- | --- |
-| Listening | Give one clue, mark timestamps, or create a parallel clip | First pass, error categories, and delayed transfer in the [Listening Resource Audit](../../templates/listening-audit.md) |
+| Listening | Give one clue, mark timestamps, or create a parallel follow-up | First pass, six-layer error map, scaffold ladder, meaning reconstruction, and delayed transfer in the [Listening Evidence Card](../../templates/listening-audit.md) |
 | Reading | Compare paragraph marks and ask for source locations | Gist, claim map, and inference boundary in the [Reading Evidence Card](../../templates/reading-evidence.md) |
 | Speaking | Mark unclear segments and simulate follow-up questions | Raw recording, listener retelling, and repair in the [Speaking Evidence Card](../../templates/speaking-evidence.md) |
 | Writing | Flag layered issues in facts, structure, language, and tone | Draft, four revision passes, and reader feedback in the [Writing Evidence Card](../../templates/writing-evidence.md) |
@@ -98,6 +98,8 @@ First write only the gist and certain details without subtitles. Then label the 
 - speed, accent, or temporary attention failure.
 
 Ask AI for one small clue, then replay 10–20 seconds. Do not request a full translation immediately. Close the subtitles, paraphrase the clip, and record what remains uncertain.
+
+Give each pass a different question: preserve the no-caption first pass, locate timestamp and barrier layer, open only necessary transcript support, close the text and reconstruct gist, relationship, and next step, then remove support on parallel material after three to seven days. Use the [Listening Evidence Card](../../templates/listening-audit.md) for the complete record. AI can offer transcript candidates; it cannot overrule raw audio and a reliable source.
 
 ## 5. Speaking and Pronunciation: Optimise Communication
 

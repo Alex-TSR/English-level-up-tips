@@ -53,7 +53,7 @@ You do not need equal listening, reading, speaking, and writing every week. Choo
 
 | Part of the cycle | Role | Evidence to keep |
 | --- | --- | --- |
-| Listening/reading | Gather material, understand the problem, and locate evidence | [Listening Resource Audit](../../templates/listening-audit.md) or [Reading Evidence Card](../../templates/reading-evidence.md) |
+| Listening/reading | Gather material, understand the problem, and locate evidence | [Listening Evidence Card](../../templates/listening-audit.md) or [Reading Evidence Card](../../templates/reading-evidence.md) |
 | Speaking/writing | Turn understanding into an explanation, decision, or artifact | [Speaking Evidence Card](../../templates/speaking-evidence.md) or [Writing Evidence Card](../../templates/writing-evidence.md) |
 | Feedback/review | Find the largest barrier and choose the next variable | [Weekly Review](../../templates/weekly-review.md) and [Learning State](../../templates/learning-state.md) |
 | Delivery/transfer | Test the result with a new listener, topic, or real situation | Artifact link, user feedback, or parallel task |

@@ -53,7 +53,7 @@ next:
 
 | 环节 | 作用 | 可留下的证据 |
 | --- | --- | --- |
-| 听力/阅读 | 获取材料、理解问题和证据 | [听力资源审计卡](../../templates/listening-audit.md)或[阅读证据卡](../../templates/reading-evidence.md) |
+| 听力/阅读 | 获取材料、理解问题和证据 | [听力证据卡](../../templates/listening-audit.md)或[阅读证据卡](../../templates/reading-evidence.md) |
 | 口语/写作 | 把理解变成说明、决定或作品 | [口语证据卡](../../templates/speaking-evidence.md)或[写作证据卡](../../templates/writing-evidence.md) |
 | 反馈/复盘 | 找出最大障碍并决定下一变量 | [每周复盘](../../templates/weekly-review.md)与[学习状态](../../templates/learning-state.md) |
 | 交付/迁移 | 在新听众、主题或真实场景中检验 | 作品链接、用户反馈或平行任务 |

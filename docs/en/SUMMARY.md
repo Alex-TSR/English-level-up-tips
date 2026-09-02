@@ -75,7 +75,7 @@
 - [Job-search English Evidence Card](templates/interview-evidence.md)
 - [Grammar Evidence Card](templates/grammar-evidence.md)
 - [Vocabulary Audit](templates/vocabulary-audit.md)
-- [Listening Resource Audit](templates/listening-audit.md)
+- [Listening Evidence Card](templates/listening-audit.md)
 - [Reading Evidence Card](templates/reading-evidence.md)
 - [Speaking Evidence Card](templates/speaking-evidence.md)
 - [Writing Evidence Card](templates/writing-evidence.md)

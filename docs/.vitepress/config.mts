@@ -63,6 +63,7 @@ function splitSearchSections(file: string, html: string) {
     "/templates/interview-evidence.md",
     "/templates/grammar-evidence.md",
     "/templates/speaking-evidence.md",
+    "/templates/listening-audit.md",
     "/threads/part-4/family-learning.md",
     "/threads/part-1/8-job-search-english.md",
     "/threads/part-1/grammar.md",
@@ -75,6 +76,7 @@ function splitSearchSections(file: string, html: string) {
     "/threads/part-5/after-90-days.md",
     "/threads/part-5/book-as-proof.md",
     "/templates/toolkit-walkthrough.md",
+    "/threads/part-1/3-listening.md",
   ].some((suffix) => normalizedFile.endsWith(suffix));
   const pageLevelOnly =
     normalizedFile.includes("/templates/") ||

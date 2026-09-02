@@ -19,7 +19,7 @@ Week-12 retest date:
 
 | Skill | Conditions | First sample | Delayed/parallel sample | Evidence card |
 | --- | --- | --- | --- | --- |
-| Listening | | | | [Listening Resource Audit](listening-audit.md) |
+| Listening | | | | [Listening Evidence Card](listening-audit.md) |
 | Reading | | | | [Reading Evidence Card](reading-evidence.md) |
 | Speaking | | | | [Speaking Evidence Card](speaking-evidence.md) |
 | Writing | | | | [Writing Evidence Card](writing-evidence.md) |

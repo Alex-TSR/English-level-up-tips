@@ -75,7 +75,7 @@
 - [求职英语证据卡](templates/interview-evidence.md)
 - [语法证据卡](templates/grammar-evidence.md)
 - [词汇审计模板](templates/vocabulary-audit.md)
-- [听力资源审计卡](templates/listening-audit.md)
+- [听力证据卡](templates/listening-audit.md)
 - [阅读证据卡](templates/reading-evidence.md)
 - [口语证据卡](templates/speaking-evidence.md)
 - [写作证据卡](templates/writing-evidence.md)

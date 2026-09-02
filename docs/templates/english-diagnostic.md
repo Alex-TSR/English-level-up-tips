@@ -19,7 +19,7 @@ updated: 2026-08-31
 
 | 能力 | 任务条件 | 首版样本 | 延迟/平行样本 | 对应证据卡 |
 | --- | --- | --- | --- | --- |
-| 听力 | | | | [听力资源审计卡](listening-audit.md) |
+| 听力 | | | | [听力证据卡](listening-audit.md) |
 | 阅读 | | | | [阅读证据卡](reading-evidence.md) |
 | 口语 | | | | [口语证据卡](speaking-evidence.md) |
 | 写作 | | | | [写作证据卡](writing-evidence.md) |

@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Rebuilt the bilingual Listening chapter around a real first-pass baseline, six-layer error diagnosis, material conditions, an adjustable caption scaffold, question-specific replays, critical-segment dictation, meaning reconstruction, supported extensive listening, accent familiarity, AI boundaries, and a fourteen-day transfer experiment.
+- Replaced the old bilingual Listening Resource Audit with a Listening Evidence Card that captures main and parallel material, technical conditions, no-caption evidence, scaffold removal, generation beyond shadowing, real-task action, and day-fourteen transfer.
+- Removed the long, volatile listening channel/video directory and kept product self-promotion outside the manuscript, connecting the new non-advertorial method through navigation, Reader's Guide, Toolkit, glossary, AI-English, search budgets, attribution, and regression tests.
 - Rebuilt the bilingual Speaking chapter around unscripted baselines, reference variety without hierarchy, accentedness/intelligibility/comprehensibility distinctions, high-impact pronunciation, generation beyond shadowing, interaction repair, listener retelling, AI limits, and a fourteen-day transfer experiment.
 - Expanded the bilingual Speaking Evidence Card to capture three baseline conditions, recording consent, device and listener familiarity, actual listener recovery, comprehension effort, unfamiliar follow-ups, repair, recognition errors, and day-fourteen transfer.
 - Connected the new speaking method through the home pages, Reader's Guide, Toolkit Overview, glossary, Listening, AI-English, Job-search English, search-budget rules, research attribution, and regression coverage.
