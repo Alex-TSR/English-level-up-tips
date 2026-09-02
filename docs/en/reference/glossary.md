@@ -39,6 +39,9 @@ Find the task you are facing, then follow “definition → evidence → next st
 | Term | Meaning in this guide | Related chapter |
 | --- | --- | --- |
 | **Retrieval practice** | Close the source and answer, retell, write, or perform from memory | [Learning Principles](../threads/part-1/1-understanding.md) |
+| **Complete learning loop** | Define the task, preserve a first version, diagnose, target input, produce actively, and record feedback/state | [Learning Principles](../threads/part-1/1-understanding.md) |
+| **First-version conditions** | Material, time, tools, help, and acceptance standard recorded for the first attempt so later comparison is not confused by polish | [English Diagnostic](../templates/english-diagnostic.md) |
+| **Capacity mode** | Choose a full, downgraded, minimum, or paused version of an action based on attention, body, time, and responsibility | [Daily System](../threads/part-4/daily-system.md) |
 | **Distributed practice** | Return at multiple points instead of cramming once | [Vocabulary](../threads/part-1/2-vocabulary.md) |
 | **Unknown-item decision queue** | Decide whether to skip, infer, look up, learn, or professionally verify each unknown and record why | [Vocabulary Evidence Card](../templates/vocabulary-audit.md) |
 | **Eight vocabulary dimensions** | Separate form, sound, current sense, collocation, grammar, register, concept boundary, and retrieval condition | [Vocabulary](../threads/part-1/2-vocabulary.md) |

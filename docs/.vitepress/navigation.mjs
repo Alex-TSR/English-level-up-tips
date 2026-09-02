@@ -91,7 +91,7 @@ export const zhNavigation = [
       page("学习状态模板", "/templates/learning-state"),
       page("节律账本模板", "/templates/rhythm-ledger"),
       page("每周复盘模板", "/templates/weekly-review"),
-      page("英语诊断模板", "/templates/english-diagnostic"),
+      page("英语能力诊断", "/templates/english-diagnostic"),
       page("求职英语证据卡", "/templates/interview-evidence"),
       page("语法证据卡", "/templates/grammar-evidence"),
       page("词汇证据卡", "/templates/vocabulary-audit"),

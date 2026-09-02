@@ -71,7 +71,7 @@
 - [学习状态模板](templates/learning-state.md)
 - [节律账本模板](templates/rhythm-ledger.md)
 - [每周复盘模板](templates/weekly-review.md)
-- [英语诊断模板](templates/english-diagnostic.md)
+- [英语能力诊断](templates/english-diagnostic.md)
 - [求职英语证据卡](templates/interview-evidence.md)
 - [语法证据卡](templates/grammar-evidence.md)
 - [词汇证据卡](templates/vocabulary-audit.md)

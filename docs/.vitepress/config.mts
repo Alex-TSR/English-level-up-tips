@@ -66,12 +66,14 @@ function splitSearchSections(file: string, html: string) {
     "/templates/listening-audit.md",
     "/templates/reading-evidence.md",
     "/templates/vocabulary-audit.md",
+    "/templates/english-diagnostic.md",
     "/threads/part-4/family-learning.md",
     "/threads/part-1/8-job-search-english.md",
     "/threads/part-1/grammar.md",
     "/threads/part-1/5-speaking.md",
     "/threads/part-1/4-reading.md",
     "/threads/part-1/2-vocabulary.md",
+    "/threads/part-1/1-understanding.md",
   ].some((suffix) => normalizedFile.endsWith(suffix));
   const headingOnly = [
     "/docs/README.md",

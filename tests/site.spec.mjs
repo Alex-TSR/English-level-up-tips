@@ -391,6 +391,34 @@ test("vocabulary turns card familiarity into contextual retrieval", () => {
   }
 });
 
+test("learning principles turn effort into a complete evidence loop", () => {
+  const cases = [
+    {
+      chapter: "threads/part-1/1-understanding.md",
+      diagnostic: "templates/english-diagnostic.md",
+      chapterTerms: ["一次完整学习回路", "首版是测量，不是判决", "诊断错误，而不是审判自己", "把状态放在会话之外", "让能力跨条件移动"],
+      diagnosticTerms: ["定义诊断边界", "四项首版任务", "按影响评分，不按感觉评分", "为每项只选一个首要障碍", "延迟复测与迁移"],
+    },
+    {
+      chapter: "en/threads/part-1/1-understanding.md",
+      diagnostic: "en/templates/english-diagnostic.md",
+      chapterTerms: ["One Complete Learning Loop", "A First Version Is a Measure, Not a Verdict", "Diagnose the Error Instead of Judging the Person", "Keep State Outside the Session", "Make Ability Move Across Conditions"],
+      diagnosticTerms: ["Define the Diagnostic Boundary", "Four First-version Tasks", "Score Impact, Not Feeling", "Choose One Primary Barrier per Skill", "Delayed Retest and Transfer"],
+    },
+  ];
+
+  for (const { chapter, diagnostic, chapterTerms, diagnosticTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const diagnosticText = readFileSync(resolve(process.cwd(), "docs", diagnostic), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of diagnosticTerms) expect(diagnosticText, diagnostic).toContain(term);
+    expect(chapterText).toContain("api.crossref.org/works/10.1177%2F1529100612453266");
+    expect(chapterText).toContain("english-diagnostic.md");
+    expect(diagnosticText).toContain("evidence-chain.md");
+    expect((chapterText.match(/https?:\/\//g) || []).length, chapter).toBeLessThanOrEqual(8);
+  }
+});
+
 test("writing turns tool polish into accountable revision and delivery", () => {
   const cases = [
     {
@@ -847,6 +875,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /词汇篇：从眼熟到在真实任务中调用/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("词汇证据卡：从卡片眼熟到情境调用");
   await expect(zhSearchBox.getByRole("link", { name: /词汇证据卡：从卡片眼熟到情境调用/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("认知篇：把努力变成可验证的学习");
+  await expect(zhSearchBox.getByRole("link", { name: /认知篇：把努力变成可验证的学习/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("英语能力诊断：四项基线与迁移记录");
+  await expect(zhSearchBox.getByRole("link", { name: /英语能力诊断：四项基线与迁移记录/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作篇：从初稿到可验证修订");
   await expect(zhSearchBox.getByRole("link", { name: /写作篇：从初稿到可验证修订/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("写作证据卡：从工具润色到署名交付");
@@ -886,6 +918,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Vocabulary: From Familiarity to Retrieval in Real Tasks/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Vocabulary Evidence Card: From Card Familiarity to Contextual Retrieval");
   await expect(enSearchBox.getByRole("link", { name: /Vocabulary Evidence Card: From Card Familiarity to Contextual Retrieval/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Learning Principles: Turn Effort into Verifiable Learning");
+  await expect(enSearchBox.getByRole("link", { name: /Learning Principles: Turn Effort into Verifiable Learning/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("English Diagnostic: Four-skill Baseline and Transfer Record");
+  await expect(enSearchBox.getByRole("link", { name: /English Diagnostic: Four-skill Baseline and Transfer Record/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing: From Draft to Verifiable Revision");
   await expect(enSearchBox.getByRole("link", { name: /Writing: From Draft to Verifiable Revision/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Writing Evidence Card: From Tool Polish to Accountable Delivery");
