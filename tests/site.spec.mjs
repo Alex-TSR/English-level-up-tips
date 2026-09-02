@@ -333,6 +333,36 @@ test("listening turns repeated playback into diagnosis, reconstruction, and tran
   }
 });
 
+test("reading turns word-by-word translation into verification and delivery", () => {
+  const cases = [
+    {
+      chapter: "threads/part-1/4-reading.md",
+      card: "templates/reading-evidence.md",
+      chapterTerms: ["保存一次未经修饰的首读", "把“读不懂”拆成六层", "技术文档：把页面读成可验证的事实", "十四天阅读实验"],
+      cardTerms: ["保存未经修饰的首读", "建立六层障碍地图", "技术文档事实卡", "多来源比较与真实输出"],
+    },
+    {
+      chapter: "en/threads/part-1/4-reading.md",
+      card: "en/templates/reading-evidence.md",
+      chapterTerms: ["Preserve an Unpolished First Pass", "Split \"I Cannot Understand It\" into Six Layers", "Technical Documentation: Turn Pages into Verifiable Facts", "A Fourteen-Day Reading Experiment"],
+      cardTerms: ["Preserve an Unpolished First Pass", "Build a Six-Layer Barrier Map", "Technical Documentation Fact Card", "Compare Sources and Deliver an Output"],
+    },
+  ];
+
+  for (const { chapter, card, chapterTerms, cardTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const cardText = readFileSync(resolve(process.cwd(), "docs", card), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of cardTerms) expect(cardText, card).toContain(term);
+    expect(chapterText).toContain("api.crossref.org/works/10.1111%2Flang.12034");
+    expect(chapterText).toContain("reading-evidence.md");
+    expect(cardText).toContain("part-1/4-reading.md");
+    expect((chapterText.match(/https?:\/\//g) || []).length, chapter).toBeLessThanOrEqual(4);
+    expect(chapterText).not.toContain("Animal Farm");
+    expect(chapterText).not.toContain("WeChat Official Accounts");
+  }
+});
+
 test("the entrepreneurship chapter advances through scenes instead of stacked binary contrasts", () => {
   const text = readFileSync(
     resolve(process.cwd(), "docs/threads/part-2/entrepreneurship.md"),
@@ -715,15 +745,15 @@ test("page-level search keeps nested chapter text discoverable", async ({ page }
   await page.goto("./");
   await page.getByRole("button", { name: "搜索", exact: true }).click();
   const zhSearchBox = page.locator(".VPLocalSearchBox");
-  await zhSearchBox.locator("input").fill("专业术语要查看定义、例子");
-  await expect(zhSearchBox.getByRole("link", { name: /阅读篇/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("四次修订");
+  await expect(zhSearchBox.getByRole("link", { name: /写作篇/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
   await page.getByRole("button", { name: "Search", exact: true }).click();
   const enSearchBox = page.locator(".VPLocalSearchBox");
-  await enSearchBox.locator("input").fill("For technical terms, be extra careful");
-  await expect(enSearchBox.getByRole("link", { name: /Reading/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Four Revision Passes");
+  await expect(enSearchBox.getByRole("link", { name: /Writing/ }).first()).toBeVisible();
 });
 
 test("heading-only search keeps long-form chapters and tools discoverable without indexing their full prose", async ({ page }) => {
@@ -752,6 +782,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /听力篇：从声音辨认到真实理解/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("听力证据卡：从播放时长到意义重构");
   await expect(zhSearchBox.getByRole("link", { name: /听力证据卡：从播放时长到意义重构/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("阅读篇：从逐词翻译到观点与证据");
+  await expect(zhSearchBox.getByRole("link", { name: /阅读篇：从逐词翻译到观点与证据/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("阅读证据卡：从读完摘要到真实交付");
+  await expect(zhSearchBox.getByRole("link", { name: /阅读证据卡：从读完摘要到真实交付/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -779,6 +813,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Listening: From Sound Recognition to Real Understanding/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Listening Evidence Card: From Playback Time to Meaning Reconstruction");
   await expect(enSearchBox.getByRole("link", { name: /Listening Evidence Card: From Playback Time to Meaning Reconstruction/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Reading: From Word-by-word Translation to Claims and Evidence");
+  await expect(enSearchBox.getByRole("link", { name: /Reading: From Word-by-word Translation to Claims and Evidence/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Reading Evidence Card: From Finished Summary to Real Delivery");
+  await expect(enSearchBox.getByRole("link", { name: /Reading Evidence Card: From Finished Summary to Real Delivery/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -1028,6 +1066,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(zhMain.getByRole("link", { name: "语法证据卡", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "口语证据卡", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力证据卡", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "阅读证据卡", exact: true }).first()).toBeVisible();
 
   await page.goto("./en/templates/toolkit");
   const enMain = page.locator("main");
@@ -1040,6 +1079,35 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Grammar Evidence Card", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Speaking Evidence Card", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening Evidence Card", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Reading Evidence Card", exact: true }).first()).toBeVisible();
+});
+
+test("reading pages turn technical documents into verifiable delivery", async ({ page }) => {
+  await page.goto("./threads/part-1/4-reading");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: /保存一次未经修饰的首读/ })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: /技术文档：把页面读成可验证的事实/ })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: /多来源与跨文化逻辑/ })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "阅读证据卡", exact: true }).first()).toBeVisible();
+
+  await page.goto("./templates/reading-evidence");
+  const zhCard = page.locator("main");
+  await expect(zhCard.getByRole("heading", { level: 2, name: /保存未经修饰的首读/ })).toBeVisible();
+  await expect(zhCard.getByRole("heading", { level: 2, name: /技术文档事实卡/ })).toBeVisible();
+  await expect(zhCard.getByRole("heading", { level: 2, name: /多来源比较与真实输出/ })).toBeVisible();
+
+  await page.goto("./en/threads/part-1/4-reading");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: /Preserve an Unpolished First Pass/ })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: /Technical Documentation: Turn Pages into Verifiable Facts/ })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: /Multiple Sources and Cross-Cultural Logic/ })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Reading Evidence Card", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/templates/reading-evidence");
+  const enCard = page.locator("main");
+  await expect(enCard.getByRole("heading", { level: 2, name: /Preserve an Unpolished First Pass/ })).toBeVisible();
+  await expect(enCard.getByRole("heading", { level: 2, name: /Technical Documentation Fact Card/ })).toBeVisible();
+  await expect(enCard.getByRole("heading", { level: 2, name: /Compare Sources and Deliver an Output/ })).toBeVisible();
 });
 
 test("listening pages turn replay into diagnosis, reconstruction, and transfer", async ({ page }) => {
@@ -1242,6 +1310,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(zhMain.getByRole("link", { name: "口语证据卡", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力篇：从声音辨认到真实理解", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "听力证据卡", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "阅读篇：从逐词翻译到观点与证据", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "阅读证据卡", exact: true })).toBeVisible();
 
   await page.goto("./en/threads/part-0/reader-guide");
   const enMain = page.locator("main");
@@ -1258,6 +1328,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Speaking Evidence Card", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening: From Sound Recognition to Real Understanding", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Listening Evidence Card", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Reading: From Word-by-word Translation to Claims and Evidence", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Reading Evidence Card", exact: true })).toBeVisible();
 });
 
 test("echoes chapter separates harm, responsibility, and the next choice", async ({ page }) => {

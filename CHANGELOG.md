@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Rebuilt the bilingual Reading chapter around real tasks, a timed first-pass baseline, six-layer barrier diagnosis, five question-specific passes, technical documentation verification, translation boundaries, intensive/extensive/narrow reading, source comparison, AI limits, real output, and a fourteen-day transfer experiment.
+- Expanded the bilingual Reading Evidence Card to capture source version, first pass, barrier map, claims and evidence, technical fact checks, unknown-word decisions, source comparison, delivery, and day-fourteen transfer.
+- Removed volatile book/community recommendation sections from the reading method and connected the new documentation-and-delivery path through the home pages, Reader's Guide, Toolkit, glossary, AI-English, search budgets, attribution, and regression tests.
 - Rebuilt the bilingual Listening chapter around a real first-pass baseline, six-layer error diagnosis, material conditions, an adjustable caption scaffold, question-specific replays, critical-segment dictation, meaning reconstruction, supported extensive listening, accent familiarity, AI boundaries, and a fourteen-day transfer experiment.
 - Replaced the old bilingual Listening Resource Audit with a Listening Evidence Card that captures main and parallel material, technical conditions, no-caption evidence, scaffold removal, generation beyond shadowing, real-task action, and day-fourteen transfer.
 - Removed the long, volatile listening channel/video directory and kept product self-promotion outside the manuscript, connecting the new non-advertorial method through navigation, Reader's Guide, Toolkit, glossary, AI-English, search budgets, attribution, and regression tests.

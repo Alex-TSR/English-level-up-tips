@@ -50,7 +50,7 @@ Score task completion, comprehensibility, accuracy and range, organisation and f
 | Skill | AI may assist with | Evidence kept after closing AI |
 | --- | --- | --- |
 | Listening | Give one clue, mark timestamps, or create a parallel follow-up | First pass, six-layer error map, scaffold ladder, meaning reconstruction, and delayed transfer in the [Listening Evidence Card](../../templates/listening-audit.md) |
-| Reading | Compare paragraph marks and ask for source locations | Gist, claim map, and inference boundary in the [Reading Evidence Card](../../templates/reading-evidence.md) |
+| Reading | Compare paragraph marks, ask for source locations, and pose parallel-source questions | First pass, barrier map, claims/evidence, technical facts, and inference boundary in the [Reading Evidence Card](../../templates/reading-evidence.md) |
 | Speaking | Mark unclear segments and simulate follow-up questions | Raw recording, listener retelling, and repair in the [Speaking Evidence Card](../../templates/speaking-evidence.md) |
 | Writing | Flag layered issues in facts, structure, language, and tone | Draft, four revision passes, and reader feedback in the [Writing Evidence Card](../../templates/writing-evidence.md) |
 

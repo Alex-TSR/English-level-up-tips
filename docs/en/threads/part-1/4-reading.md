@@ -1,172 +1,256 @@
 ---
 title: "Reading: From Word-by-word Translation to Claims and Evidence"
-description: Use CEFR goals to practise gist, argument, inference, and transfer with authentic, inspectable reading tasks.
-updated: 2026-09-01
+description: Begin with a real reading task and first-pass baseline, then separate language, structure, background, layout, and attention barriers while training technical documentation, source comparison, evidence checks, and delivery.
+updated: 2026-09-02
+sources_checked: 2026-09-02
 ---
 
 # Reading: From Word-by-word Translation to Claims and Evidence
 
-Source (Chinese edition): [Reading](../../../threads/part-1/4-reading.md)
+I once treated English reading as an endurance contest. My eyes moved right as quickly as possible, every unknown word stopped me for a translation, and a thickening notebook proved that I had not read for nothing. After finishing an article, however, I could rarely explain the problem the author was solving. A technical document was worse: I knew where each menu was, but not what a parameter would change.
 
-Reading is not moving every word into another language. It is building meaning, structure, and judgment while some uncertainty remains. You need to know when to continue, when to verify, and when to separate the author’s claim from your own opinion.
+Reading is not moving every word into another language. It is building meaning, structure, and judgment while some uncertainty remains. You need to know when to continue, when to verify, and when to separate an author's view from your own. You also need the reading to cause something after the page closes: a decision, explanation, test, or handover.
 
-## Quick Overview
+This chapter does not offer an ever-longer book list. It offers a retestable path: preserve a first pass, identify whether the barrier is language, structure, background, layout, or attention, use different passes to build a claim map and inference boundary, then close the source and explain, verify, execute, or deliver in your own words. A parallel source checks whether the method transferred.
 
-- use intensive reading for structure, evidence, and tone, and extensive reading for speed, stamina, and interest;
-- choose material that is slightly challenging but finishable;
-- recommend books by reading task, not by sales or ranking claims;
-- leave a gist, structure, supported inference, and retelling after each session.
+## Chapter at a Glance
 
-## Choose Material by Task
+- Define whether the reading ends in an answer, decision, action, explanation, or handover.
+- Preserve a timed first pass instead of allowing lookup and AI rewriting to cover the real starting point.
+- Split "I cannot understand it" into vocabulary/grammar, sentence structure, background schema, layout/technical, and attention/capacity barriers.
+- Give intensive, extensive, and narrow reading different jobs instead of using one speed for every source.
+- Read technical documentation through version, goal, prerequisites, minimum example, constraints, failure, and verification.
+- Use translation and dictionaries to remove critical barriers without replacing English structure, source location, and independent reconstruction.
+- Compare definitions, evidence, dates, interests, and unstated assumptions across sources.
+- Use AI to extract candidate terms, question evidence, and create parallel tasks, never to decide what the source said for you.
+- Track one main source, one parallel source, and one real output for fourteen days.
 
-Reading material is not more valuable simply because it is harder. Name the task first, then choose a main source you can finish in the available time and a parallel source on a related topic. The main source trains the method; the parallel source checks transfer.
+## 1. Define the Reading Result
 
-| Task | Material condition | Evidence of completion |
+"Improve reading" is too large to start. Write the action you need after the text ends:
+
+| Task | Material and condition | Evidence of completion |
 | --- | --- | --- |
-| Locate information | A notice, instruction, short report, or document with a clear question | Mark the answer in the source and state the supporting line |
-| Follow an argument | A structured comment, report, or technical explanation | Map claim, reasons, evidence, and limitations |
-| Build stamina | A novel, biography, or long nonfiction text you will read for seven days | Keep reading time, chapter gist, and one delayed retelling |
-| Synthesise sources | 2–3 texts on one topic with different authors or positions | Write a one-page comparison separating fact, inference, and judgment |
+| Locate information | Notice, instruction, short report, or document with one clear question | Mark the source location and state the supporting line |
+| Follow an argument | Comment, report, research abstract, or technical explanation | Map claims, reasons, evidence, limits, and unresolved questions |
+| Read documentation | Guide, API page, migration note, error reference, or changelog | Run a minimum experiment and record version, input, output, and failure conditions |
+| Build stamina | A novel, biography, or nonfiction text you will revisit for seven days | Keep chapter gist, changes in people/arguments, and delayed retelling |
+| Synthesise sources | Two or three sources on one topic | Write a one-page comparison separating fact, inference, position, and date |
+| Support a decision | Material with cost, risk, or responsibility | State choice, evidence, unknowns, next step, and exit condition |
 
-Keep the chosen source for at least seven days before replacing it. Record author, title, edition or publication date, access date, length, and usage boundary; web pages can change, become paid, or disappear. These links are entry points, not rankings, sponsorships, or promises of permanent availability. Copy the [Reading Evidence Card](../../templates/reading-evidence.md) to preserve evidence from each session.
+The reader role changes the standard. An exam asks for a located answer; a project asks for version verification; a friend's story asks you to understand relationship and feeling. Different tasks need different precision. Not every page needs to become an essay.
 
----
+Use the [Reading Evidence Card](../../templates/reading-evidence.md) to keep task, source, first pass, barrier, claim map, and delivery together.
 
-## Intensive vs. Extensive Reading
+## 2. Preserve an Unpolished First Pass
 
-### Intensive reading
+Choose 300-1500 words, one documentation section, or one chapter you can attempt in twenty minutes. Record before starting:
 
-Short but dense writing is great for intensive reading—*The Economist* is a classic example.
+```markdown
+Source title, author, origin, and version:
+Publication date or documentation version:
+Task and completion standard:
+Reader/user:
+Time limit:
+Dictionary, translation, search, notes, and AI allowed:
+Copyright, privacy, and retention boundary:
+```
 
-If you skim an Economist-style article, you’ll only get the surface. The structure, subtext, and sharp opinions are where the value is.
+Read once without looking up every word, then write:
 
-Treat intensive reading like tasting: look things up, reread, and try to figure out why the author chose those words.
+```markdown
+One-sentence gist:
+How the text moves:
+Three certain details:
+What the author or maintainer wants me to believe or do:
+One unresolved point:
+Action I would take from this understanding:
+First-pass time:
+```
 
-### Extensive reading
+The first pass is a comparison point, not a verdict. Do not replace it with a polished translation. For safety, medical, legal, financial, or production material, necessary professional verification comes before an artificial no-support condition.
 
-Beautiful novels are perfect for extensive reading—*Animal Farm*, for example.
+## 3. Split "I Cannot Understand It" into Six Layers
 
-This is more about enjoyment. Sometimes the first few lines hook you so hard you can’t stop.
+The next action changes by layer:
 
-Don’t turn it into homework:
+| Layer | Typical signal | Next action |
+| --- | --- | --- |
+| Vocabulary and grammar | Key form, collocation, or syntax is unfamiliar | Check minimum necessary information and return to vocabulary/grammar evidence |
+| Structure and reference | Words are known, but modifier, agent, condition, or turn is unclear | Map sentence core, pronoun reference, and connections |
+| Background and schema | Language is readable, but event, field, or cultural premise is missing | Add a small trustworthy background map, then return to the source |
+| Argument and evidence | Sentences are visible, but claim, example, limit, and speculation blur together | Build a claim map and return to source locations |
+| Layout and technical | Small PDF, broken link, wrapped code, mixed versions, or inaccessible format | Change format, enlarge, search the current version, or record the defect |
+| Attention and capacity | Fatigue, anxiety, excessive density, or loss of the main line | Shorten the section, reduce simultaneous tasks, or move to a higher-capacity time |
 
-- no strict plan
-- no rushing to “finish the book”
-- go with your mood and enjoy it
+Unknown-word count describes the fit between source and vocabulary; it does not directly set a proficiency level. If almost every sentence blocks the gist, use easier parallel material first. Lowering the entry point does not lower the destination.
 
-Also: start with something manageable. Jumping straight into *A Song of Ice and Fire* is a fast way to get crushed by unknown words and quit.
+## 4. Five Reading Passes, Five Different Questions
 
-## A Complete Reading Pass
+Ten mechanical rereads are less useful than five passes with separate jobs.
 
-1. **First pass**: finish a short section on a timer without looking up every word; write one-sentence gist.
-2. **Mark**: label each paragraph’s function and the words or sentences that truly block meaning.
-3. **Verify**: check recurring, domain-critical, or reasoning-critical items and record the source.
-4. **Reconstruct**: close the dictionary, rebuild the structure in five sentences, and write one supported inference.
-5. **Transfer**: read a parallel text one week later and compare speed, gist, and evidence tracking.
+### Pass One: Locate Direction
 
-If almost every sentence is blocked, choose easier parallel material first. Lowering the entry point does not lower the destination.
+Use title, version, contents, figures, and opening paragraph to predict the real problem. Finish on a timer without looking up words and write the gist.
 
----
+### Pass Two: Draw Structure
 
-## Recommended English Books
+Label paragraph functions: background, problem, claim, reason, example, limit, action, or conclusion. In long sentences find the subject, core verb, condition, and turn before translating.
 
-Here are a few books across relative difficulty levels. The descriptions focus on reading practice rather than rankings, sales, or universal difficulty claims. Recheck the specific edition and availability before starting:
+### Pass Three: Check Critical Evidence
 
-- [Animal Farm — George Orwell](https://book.douban.com/subject/10956502/)
+Look up recurring, domain-critical, reasoning-critical, or action-changing words and sentences. Record source location, definition source, and your interpretation. Do not use a whole-paragraph translation as verification.
 
-  A compact allegorical story that works well for practising repeated vocabulary, narrative movement, and the relationship between claims and symbols.
+### Pass Four: Close Tools and Reconstruct
 
-- [The Curious Incident of the Dog in the Night-time — Mark Haddon](https://book.douban.com/subject/23546652/)
+Without the source or dictionary, rebuild the movement in five sentences: problem, claim, evidence, limit, next action. Add one source-supported inference and one possible counterexample.
 
-  The distinctive first-person voice makes it useful for studying logical connectors, perspective, and how a narrator shapes evidence.
+### Pass Five: Enter the Task
 
-- [The Diary of a Young Girl — Anne Frank](https://book.douban.com/subject/1341074/)
+Turn reading into action: answer a question, run a minimum example, write a confirmation email, compare sources, explain it to a reader, or ask the next question that reduces uncertainty.
 
-  The diary form offers practice in concrete detail, daily observation, and expressing changing emotion without a formal essay structure.
+Research syntheses show strong relationships between L2 reading comprehension and language components such as vocabulary, grammar, decoding, and listening. Strategy-instruction studies also suggest that prediction, monitoring, evaluation, and problem solving can be teachable processes. These findings are correlations or context-specific interventions, not substitutes for delayed testing under your own material, time, and task conditions.
 
-- [Harry Potter series — J. K. Rowling](https://book.douban.com/subject/1340758/)
+## 5. Technical Documentation: Turn Pages into Verifiable Facts
 
-  Popular fiction can be a practical bridge to long-form reading: dialogue, action, recurring vocabulary, and sustained plot all build stamina.
+Slow documentation reading is rarely only a vocabulary problem. A page may combine version, defaults, prerequisites, examples, exceptions, deprecation, and security boundaries. Read in this order:
 
-- [The Kite Runner — Khaled Hosseini](https://book.douban.com/subject/1772158/)
+1. **Goal**: whose problem does this page solve, and what result should appear?
+2. **Version**: which release, platform, dependency, and date apply?
+3. **Prerequisites**: what permissions, environment, inputs, data, network, and prior knowledge are assumed?
+4. **Minimum example**: remove decoration and run or reason through the smallest testable fragment.
+5. **Parameters and constraints**: what defaults, types, ranges, order, cost, rate, and side effects matter?
+6. **Failure and rollback**: what does the error mean, when must work stop, and how can it recover?
+7. **Verification**: does your output match the documented claim? If not, is the gap version, environment, understanding, or documentation?
 
-  A longer, emotionally demanding narrative for practising pacing, relationships, and the way a story carries guilt, loyalty, and repair.
+Keep a technical fact card:
 
-- [On Writing Well — William Zinsser](https://book.douban.com/subject/4740002/)
+```markdown
+Goal and version:
+Prerequisites:
+Minimum input:
+Expected output:
+Actual output:
+Failure condition/error:
+Limit explicitly stated in the source:
+Part I am still inferring:
+Smallest next test:
+```
 
-  A clear nonfiction text for intensive reading: follow its structure, notice how sentences are shortened, and imitate one paragraph in your own words.
+This works for SDKs, APIs, migration guides, command-line help, and open-source READMEs. Understanding is not saving a link. It is verifying one small fact in the current version and environment.
 
-> A Chinese translation can provide a background map, but do not compare sentence by sentence. Let the English text speak first, then compare changes in tone and emphasis.
+## 6. Unknown Words, Word Families, and Translation Boundaries
 
----
+Give an unfamiliar word a task role:
 
-## WeChat Official Accounts
+| Word role | Response |
+| --- | --- |
+| Low-frequency modifier that does not affect gist | Pass it and continue in context |
+| Recurring core word | Check sense, part of speech, collocation, word family, and source example |
+| Technical or institutional term | Check formal definition, version, hierarchy, and counterexample |
+| Word changing negation, condition, number, or responsibility | Verify its scope and action consequence immediately |
+| Expression that only sounds natural in translation | Return to English structure and author stance before inferring meaning |
 
-I rarely use WeChat, so the list below is a personal record of accounts I once read. It does not mean they are still active or suitable for every reader:
+Word families help guessing and coverage, but a derived form is not automatically usable. Translation can provide a background map; it cannot replace tone, logic, qualifiers, and responsibility in the source. After reading, close the translation and reconstruct in English or your strongest language, while pointing to the key source location.
 
-- *English Reading* (official account name: `英文悦读`)
-- *The Monster That Dominates Shanghai* (official account name: `独霸上海的妖怪`)
+## 7. Intensive, Extensive, and Narrow Reading
 
-If you suggest an account, include its reading task, last-checked date, and a public access path in the issue.
+**Intensive reading** increases resolution: short, dense, reviewable, and focused on claims, evidence, terms, and syntax. **Extensive reading** builds stamina and continuity: longer, gist-first, and tolerant of words that do not affect the story or direction. **Narrow reading** stays with one topic or field across several sources so background and chunks recur.
 
----
+Do not disguise leisure reading as intensive work, and do not turn every novel into homework. Read a long book during a walk, narrow-read technical documentation for work, and choose one short article for the evidence loop. Material should be challenging enough to teach and manageable enough to revisit; difficulty is not identity certification.
 
-## How to Read English Documentation
+Books, abstracts, news, community discussions, product documents, and open-source READMEs can all serve. Describe whether a recommendation supports information location, argument, technical verification, stamina, or synthesis. Do not use sales, rankings, or "every native speaker should read this" in place of task fit. Record edition, access date, rights, and author or institution interest.
 
-Do not use a mechanical “five unknown words means stop” rule. First decide whether the words block the main idea. Mark them on a fast first pass; on the second, look up recurring, domain-critical, or reasoning-critical items; then close the dictionary and reconstruct the structure. If almost every sentence is blocked, choose easier parallel material or learn the domain chunks first.
+## 8. Multiple Sources and Cross-Cultural Logic
 
-For technical terms, be extra careful:
+Sources on one topic may use different definitions, dates, evidence standards, and assumptions about responsibility. Compare them with a record like this:
 
-- read definitions and examples
-- if you still don’t get it, search for good explanations (including Chinese blogs when useful)
+```markdown
+Shared question:
+Definition and date in source A:
+Definition and date in source B:
+Strongest evidence in each:
+Omitted evidence or limits:
+Author/institution interest:
+Which differences are factual, and which are values:
+What new evidence would change my judgment:
+```
 
-If you use tools to pre-extract unknown words from a document and learn them first, reading becomes much smoother.
+What people call "foreign logic" is often a difference in structure, background, genre, or responsibility context. Break it into claim, assumption, evidence, qualifier, exception, and requested action before using a national label. Understand how the other source builds its problem before deciding whether to agree.
 
-Choose a device for sustainable reading: if a technical PDF is too small or cannot be searched, switch readers, enlarge the page, or find an HTML version. No single device is a universal answer.
+## 9. Divide Work among AI, Search, and Readers
 
----
+| Tool/role | Useful work | What it cannot prove alone |
+| --- | --- | --- |
+| Reader | Search, annotate, enlarge, and record source locations and versions | Mark count is not comprehension |
+| Dictionary/search | Check definition, word family, collocation, version, and primary source | One definition may not fit the context |
+| AI | Extract candidate terms, ask structural questions, compare your claim map, and create parallel tasks | It may invent summary, citation, background, or author intention |
+| Teacher/peer | Ask why you read it that way and inspect the inference boundary | One explanation still needs independent reconstruction |
+| Real task/reader | Verify explanation, execution, decision, or handover | One smooth event is not long-term transfer |
 
-## Communities and Technical Articles
+Give AI your first pass and source locations first:
 
-- [Medium](https://www.medium.com): find technology, design, or life writing by topic; check author, date, and citations first.
-- [Quora](https://www.quora.com): use answers to practise separating personal experience, fact, and speculation; upvotes are not evidence.
-- [Reddit](https://www.reddit.com): observe informal language and community context; for health, legal, or financial claims, return to primary sources.
-- [Hacker News](https://news.ycombinator.com/): practise reading technical headlines, comments, and linked sources; verify important claims in the original article.
-- [Stack Overflow](https://www.stackoverflow.com/): study the question, constraints, attempts, and accepted answer; test code against current documentation.
+```text
+Here is my gist, evidence map, and one inference for paragraphs 3-5. Point to source locations I missed. Separate what the author states, what the source supports, and what cannot be inferred. Do not rewrite the summary first. End with one parallel-source question and one counterexample I must answer alone.
+```
 
----
+Do not upload customer, colleague, student, family, medical, contract, or unreleased project material to an unapproved tool. For paid, legal, safety, or version-sensitive claims, return to current official documentation or qualified professional advice.
 
-## Reference Book
+## 10. Make Reading Produce an Output
 
-[Reading reference: On Writing Well](https://book.douban.com/subject/4720475/)
+Completion evidence does not always need to be a long summary. It can be:
 
----
+- a confirmation email that names version, evidence, and next step;
+- a minimum technical experiment with input, output, and failure recorded;
+- an explanation of gist, evidence, and limit to someone who has not read the source;
+- a one-page decision memo comparing sources and listing unknowns and exit conditions;
+- an answer to a parallel question on a new topic.
 
-## CEFR Task Goals
+Feedback first asks whether the task was completed, the reader understood, and the evidence is traceable. Keep first pass, reconstruction, feedback, and delivery. Do not show only the AI-polished summary.
 
-- **A1–A2**: understand short notices, instructions, messages, and direct familiar information.
-- **B1**: identify main point, sequence, and main reasons in familiar articles.
-- **B2**: understand arguments, evidence, and position in complex or specialist material.
-- **C1–C2**: process long, stylistically varied, implicit material and synthesise sources.
+## 11. A Fourteen-Day Reading Experiment
 
-## Inspectable Practice and Feedback
+| Day | Action | Evidence |
+| --- | --- | --- |
+| 1 | Choose a main source and real task; complete a timed first pass | Gist, structure, details, unknowns, and conditions |
+| 2 | Build the six-layer barrier map | One to three task-critical barriers |
+| 3 | Mark structure on a second pass | Paragraph function, sentence core, and claim map |
+| 4 | Check critical terms, version, and source locations | Definition, source, word family, and limits |
+| 5 | Close tools and reconstruct in five sentences | Claim, evidence, inference, and counterexample |
+| 6 | Complete an explanation, test, or confirmation | Post-reading output and reader response |
+| 7 | Close old notes and read parallel material | Speed, gist, evidence, and barrier comparison |
+| 8 | Keep topic, change genre | Background and structure transfer |
+| 9 | Keep genre, change topic | Vocabulary and inference transfer |
+| 10 | Compare a second source or position | Definition, evidence, and interest differences |
+| 11 | Repair only the barrier that still recurs | Third reconstruction or fact card |
+| 12 | Let AI or a peer offer a counterexample | Acceptance, rejection, and source reason |
+| 13 | Deliver a report, test, or handover under time pressure | Real audience result |
+| 14 | Close prompts, complete a new task, and choose next cycle | Evidence to keep, downgrade, replace, or move on |
 
-Choose a challenging but finishable article. Time the first read and state the gist in one sentence; label each paragraph's function; reconstruct the argument in five sentences; write one supported inference and one counterexample; verify quotations last.
+Fourteen days is not a page-count contest. It asks whether, after material, topic, or audience changes, you can still find the line, check the basis, and complete a real action.
 
-Score 0–2 for gist, structure, evidence, inference boundary, and delayed retelling. Unknown-word count is diagnostic, not a level judgment.
+## 12. Evidence That Reading Is Becoming Ability
 
-Record the first read, argument reconstruction, delayed retelling, and related-topic transfer in the [Evidence Chain Template](../../templates/evidence-chain.md), not only the summary.
+- The first pass preserves the question and main line instead of being captured by one unknown word.
+- You can locate whether the barrier is language, structure, background, layout, or capacity.
+- You can state what the author explicitly says and what is only your inference.
+- After reading documentation, you can verify a minimum example in the current version or identify a missing prerequisite.
+- Faster reading does not consistently lose gist, evidence, or limits.
+- You can reconstruct in your own words after closing the source.
+- The reading action transfers across topic, genre, source, or device.
+- You can return understanding to a reader, peer, code, decision, or next task.
 
-## Seven Days, Thirty Days, Twelve Weeks
+Real speed is not escaping the page faster. It is spending less time in the wrong place. You begin to know which word can wait, which qualifier cannot disappear, and which beautiful conclusion must return to its source. When text is more than exam material, it becomes a road into knowledge, work, and another person's experience.
 
-- **Seven days**: read four short texts on one topic; keep first summaries and a day-seven retelling.
-- **Thirty days**: one annotated close read and two timed extensive reads weekly; compare speed and summary accuracy.
-- **Twelve weeks**: move from one text to multi-source synthesis; finish with a cited report, technical review, or exam simulation.
+## Sources and Boundaries
+
+- [Jeon & Yamashita (2014), L2 Reading Comprehension and Its Correlates](https://api.crossref.org/works/10.1111%2Flang.12034): the meta-analysis synthesises relationships between passage-level L2 reading comprehension and ten component variables; vocabulary, grammar, and decoding results are correlational evidence, not a causal guarantee for one exercise.
+- [Jeon (2022), L2 Reading Comprehension and Its Correlates](https://api.crossref.org/works/10.1075%2Fbpa.13.03jeo): the update distinguishes language-knowledge variables from broader cognitive variables and notes that age, language distance, measurement, and proficiency affect interpretation.
+- [Akkakoson (2013), The Relationship between Strategic Reading Instruction and L2 Reading Achievement](https://api.crossref.org/works/10.1111%2Fjrir.12004): a 16-week comparison with Thai university science and technology students; the chapter preserves its sample, course, and pre/post-test boundaries.
+- Reading-source versions, permissions, author positions, web availability, and technical facts change. Important work should return to the current source, primary evidence, professional feedback, and real-task acceptance.
+
+Related entry points: [Vocabulary](2-vocabulary.md) | [Grammar](grammar.md) | [Listening](3-listening.md) | [Speaking](5-speaking.md) | [Learning English with AI](7-ai.md) | [Reading Evidence Card](../../templates/reading-evidence.md) | [Evidence Chain Template](../../templates/evidence-chain.md)
 
 ## Closing: Give Words Their Weight Again
 
-Reading is not moving the eyes across line after line as quickly as possible. Behind every worthwhile text, someone chose what to claim, which evidence was enough, what remained uncertain, and what may have been omitted, exaggerated, or misunderstood.
-
-Slow down long enough to ask what the author is claiming, where the reason comes from, which facts can be checked, and which silences deserve attention. Speed may arrive naturally with familiarity. Judgment grows only through the moments when you stop.
-
-One day an English document, email, or book will no longer look like a wall built from unknown words. You will see structure, position, and evidence, and enter with questions of your own. Reading then becomes more than carrying someone else's answers home. It becomes the ability to enter a larger conversation.
+Reading is not moving the eyes across line after line as quickly as possible. Behind every worthwhile text, someone chose what to claim, which evidence was enough, what remained uncertain, and what may have been omitted or misunderstood. Slow down long enough to ask what the author claims, where the reason comes from, and which facts can be checked. One day an English document, email, or book will no longer look like a wall of unknown words. You will see structure, position, and evidence, and enter a larger conversation with questions of your own.
