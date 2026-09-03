@@ -529,6 +529,54 @@ test("relationships separate repair from reconciliation and protect consent unde
   }
 });
 
+test("decisions separate uncertainty from values and name authority, disconfirming evidence, and stop gates", () => {
+  const cases = [
+    {
+      chapter: "threads/part-2/decision.md",
+      toolkit: "templates/life-practice-toolkit.md",
+      chapterTerms: [
+        "先判断：缺信息，还是价值冲突",
+        "把决定权、影响和执行分开",
+        "把停止条件写成能被看见的信号",
+        "什么证据会推翻当前选择",
+      ],
+      toolkitTerms: [
+        "问题类型：信息不足 / 结果不确定 / 价值冲突 / 身份防卫",
+        "最终决定者及其权限依据",
+        "触发后采取：暂停 / 停止 / 回滚 / 升级求助",
+      ],
+      glossary: "reference/glossary.md",
+      glossaryTerms: ["价值冲突", "决定权", "推翻证据", "停止门槛"],
+    },
+    {
+      chapter: "en/threads/part-2/decision.md",
+      toolkit: "en/templates/life-practice-toolkit.md",
+      chapterTerms: [
+        "Ask First: Missing Information or Conflicting Values?",
+        "Separate Decision Authority, Impact, and Execution",
+        "Write Stop Conditions as Observable Signals",
+        "What evidence would overturn this choice",
+      ],
+      toolkitTerms: [
+        "Problem type: missing information / outcome uncertainty / value conflict / identity defence",
+        "Final decision owner and basis of authority",
+        "Action when triggered: pause / stop / roll back / escalate for help",
+      ],
+      glossary: "en/reference/glossary.md",
+      glossaryTerms: ["Value conflict", "Decision authority", "Disconfirming evidence", "Stop gate"],
+    },
+  ];
+
+  for (const { chapter, toolkit, glossary, chapterTerms, toolkitTerms, glossaryTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const toolkitText = readFileSync(resolve(process.cwd(), "docs", toolkit), "utf8");
+    const glossaryText = readFileSync(resolve(process.cwd(), "docs", glossary), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of toolkitTerms) expect(toolkitText, toolkit).toContain(term);
+    for (const term of glossaryTerms) expect(glossaryText, glossary).toContain(term);
+  }
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);

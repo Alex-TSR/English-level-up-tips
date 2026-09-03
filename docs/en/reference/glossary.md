@@ -1,7 +1,7 @@
 ---
 title: Glossary of Terms and Methods
 description: Define the guide's core vocabulary, evidence standards, tool entry points, and reading paths so ideas can transfer between chapters.
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 # Glossary of Terms and Methods
@@ -112,6 +112,10 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Rhythm ledger** | One page each week recording the main question, protected action, useful feedback, repeated resistance, and next condition to change | [Rhythm Ledger Template](../templates/rhythm-ledger.md) · [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Cost** | Time, money, health, relationships, privacy, and responsibility that must be named | [Decision-Making](../threads/part-2/decision.md) |
 | **Reversibility** | Whether a choice can be paused, undone, or changed back at manageable cost | [Decision-Making](../threads/part-2/decision.md) |
+| **Value conflict** | Two important aims cannot both be fully preserved, requiring an explicit priority and a statement of what each option gives up | [Decision-Making](../threads/part-2/decision.md) |
+| **Decision authority** | Final power to approve or refuse a choice, with the source of authority, affected people, and responsibility made explicit | [Decision-Making](../threads/part-2/decision.md) |
+| **Disconfirming evidence** | A fact or result named before action that would remove support for the current choice, guarding against collecting only confirmation | [Decision-Making](../threads/part-2/decision.md) |
+| **Stop gate** | An observable evidence, cost, safety, or responsibility signal that triggers pause, stop, rollback, or escalation for help | [Decision-Making](../threads/part-2/decision.md) · [Life Practice Toolkit](../templates/life-practice-toolkit.md) |
 
 ## One Sentence to Keep
 

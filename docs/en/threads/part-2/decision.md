@@ -1,7 +1,7 @@
 ---
 title: "Decision-Making: Choosing Under Uncertainty"
-description: Use facts, options, costs, reversibility, and the next test to think through career, money, relationships, health, and AI-era decisions.
-updated: 2026-09-01
+description: Use facts, values, decision authority, costs, reversibility, and stop gates to think through career, money, relationships, health, and AI-era decisions.
+updated: 2026-09-03
 ---
 
 # Decision-Making: Choosing Under Uncertainty
@@ -17,9 +17,11 @@ When a decision grows out of a complicated experience, use [Narrative and Eviden
 ## Quick Overview
 
 - separate facts, interpretations, and wishes;
+- distinguish missing information from a conflict of values instead of asking more analysis to erase a trade-off;
 - judge reversibility before deciding how quickly and how much evidence you need;
 - use a small experiment instead of waiting to understand everything;
-- put money, health, relationships, and responsibility on the same cost sheet;
+- put money, health, relationships, and responsibility on the same cost sheet, naming who decides and who carries the result;
+- define pause, stop, and rollback signals before commitment makes the thresholds move;
 - leave a decision record so your future self can review it instead of judging the past only by its result.
 
 ### Let Confidence Set the Action Size
@@ -53,7 +55,27 @@ Write three columns:
 
 Writing down the unknowns does not make a choice easy. It stops imagination from quietly posing as evidence.
 
-## 2. Judge Reversibility First
+## 2. Ask First: Missing Information or Conflicting Values?
+
+Some choices are difficult because the facts are incomplete. Others are difficult because two important things cannot both be preserved. The first needs investigation and experiment. The second needs an acknowledged trade-off. Treating a value conflict as an information gap can produce endless research while avoiding the question of what you are prepared to give up.
+
+| Kind of difficulty | Typical question | More suitable action |
+| --- | --- | --- |
+| Factual uncertainty | Contract term, current price, or what a doctor has ruled out | Verify through the original document or a relevant professional |
+| Outcome uncertainty | Whether users will renew or a new job will fit | Run a bounded test, recording the prediction and review date |
+| Value conflict | Income or presence, speed or privacy, growth or health | Rank priorities and name what each option will cost |
+| Identity defence | “Stopping would prove I am not someone who can persist” | Remove the character verdict and re-examine the real task |
+
+Ask two questions:
+
+1. Would one reliable fact arriving tomorrow change my choice? If so, obtain that information first.
+2. If every fact were clear, would the decision still hurt? If so, the work is probably value ordering rather than more research.
+
+A value is not a sentence designed for public display. It must enter the cost. If family matters, which hours can the project no longer claim without limit? If privacy matters, which effective growth tactic remains unacceptable? If health matters, which bodily signal will reduce the load?
+
+No ranking removes every loss. Maturity is not finding a cost-free correct answer. It is refusing to let the cost hide until after the decision.
+
+## 3. Judge Reversibility First
 
 Not every choice deserves the same amount of discussion. Ask: **If the result is bad, can I reverse it at a reasonable cost?**
 
@@ -63,7 +85,7 @@ Not every choice deserves the same amount of discussion. Ask: **If the result is
 
 Move reversible choices into experiments sooner. Add cooling-off time, a second opinion, written boundaries, and an exit plan to irreversible choices. Decisiveness is not making everything immediately. It is knowing what should not be decided on impulse.
 
-## 3. Replace the Gamble with a Small Experiment
+## 4. Replace the Gamble with a Small Experiment
 
 “Should I do it?” is rarely the only option. Ask instead: **Can I spend a small amount of time and resources to buy the next important piece of information?**
 
@@ -76,7 +98,7 @@ For example:
 
 A small experiment is not timid. It turns expensive unknowns into affordable unknowns.
 
-## 4. One-Page Decision Brief
+## 5. One-Page Decision Brief
 
 For an important choice, write one page. You do not need to analyse every possibility:
 
@@ -89,15 +111,22 @@ Decision deadline:
 Known facts and sources:
 Key assumptions:
 Still unknown:
+Problem type:
+- missing information / outcome uncertainty
+- value conflict / identity defence
+Non-negotiable values and boundaries:
 
 Option A:
 Option B:
 Do nothing for now:
 
-Benefits, costs, and worst case for each option:
+Benefits, costs, and worst case:
 What is reversible:
 Smallest experiment:
-Stop or rollback condition:
+Pause / stop / rollback condition:
+What evidence would overturn this choice:
+Final decision owner:
+Who carries the result; have they been informed:
 Whose advice is relevant:
 
 Current decision:
@@ -109,7 +138,7 @@ You can also copy the Decision Brief in the [Life Practice Toolkit](../../templa
 
 “Do nothing for now” must be a real option. It is not avoidance. It acknowledges that some information is not yet worth its price.
 
-## 5. Four Cost Sheets
+## 6. Four Cost Sheets
 
 A choice that counts only benefits usually transfers the cost to your future self or the people beside you. Check at least four categories.
 
@@ -129,7 +158,25 @@ Who will carry extra uncertainty because of my decision? Have I stated the bound
 
 If the result is bad, who can pause, notify, repair, and carry the consequence? AI can list options, but it cannot sign, apologise, or make a promise for you.
 
-## 6. Do Not Judge a Decision Only by Its Result
+## 7. Separate Decision Authority, Impact, and Execution
+
+One person may propose a decision, another approve it, and a third carry it out while many others bear the consequences. Writing only “we decided” can hide power and responsibility inside a vague subject.
+
+| Role | Question that must be answered |
+| --- | --- |
+| Proposer | Which facts have I supplied, and which costs have I left out? |
+| Decision owner | Do I have authority to decide, or is someone else's explicit consent required? |
+| Affected person | Who loses time, money, safety, privacy, or room to choose? |
+| Implementer | Who performs the work, and do they have resources and a route to refuse unreasonable demands? |
+| Reviewer | Who will inspect the evidence on what date, with authority to pause or escalate? |
+
+More opinions do not distribute responsibility evenly. After asking ten people, the person who signs still explains what was accepted and why. A team vote cannot replace customer authorisation, consent from the person whose data is used, labour boundaries, or someone's authority over their own body and relationship.
+
+An affected person does not automatically have veto power over every choice, but the impact must enter the decision. Shared money, shared care, publication of another person's private life, and changes to basic safety cannot disappear behind “this is my life”. At the same time, being a relative, manager, or funder does not grant ownership of another adult's whole life.
+
+Where power is unequal, return to [Relationships: Becoming an Adult in Connection](relationships.md) and ask whether refusal is safe and consent is specific and withdrawable. Participation becomes more meaningful when a person can say no without immediately losing basic security.
+
+## 8. Do Not Judge a Decision Only by Its Result
 
 A decision that succeeds may still contain luck. A decision that fails does not mean every fact supporting it was worthless.
 
@@ -142,7 +189,29 @@ Review four points in time:
 
 This turns failure into method and prevents success from being misread as a universal formula.
 
-## 7. AI Can Participate, But It Is Not an Oracle
+## 9. Write Stop Conditions as Observable Signals
+
+“We will stop if it goes badly” is not a stop condition. After commitment begins, bad news is easily renamed a temporary fluctuation, deadlines move, and the original test is replaced by a metric that is easier to pass.
+
+Write four kinds of gate before acting:
+
+| Gate | Observable signal | Corresponding action |
+| --- | --- | --- |
+| Evidence | The review date arrives without the agreed number of real trials, payments, or independent samples | Stop expanding and revisit the problem and assumption |
+| Cost | The time budget is exceeded for two weeks, cash falls below the safety floor, or rework consumes the main output | Reduce, pause, or narrow the scope |
+| Safety | Persistent sleeplessness, pain, threats, data exposure, or inability to refuse safely | Pause the high-risk action and seek relevant support |
+| Responsibility | No one owns failure response, refunds, explanation, care, or exit handover | Do not enter the next stage |
+
+Do not merge four different actions:
+
+- **Pause**: stop temporarily while repairing safety, information, or resources;
+- **Stop**: end the path instead of using new investment to defend an old commitment;
+- **Roll back**: return to the last state that worked and could be responsibly maintained;
+- **Review**: use the same evidence on the agreed date to continue, revise, or close.
+
+A gate may change when new facts arrive, but the change needs a date, evidence, and owner. Do not wait until a threshold is crossed and then rename it “part of the process”.
+
+## 10. AI Can Participate, But It Is Not an Oracle
 
 Give AI a defined role:
 
@@ -157,29 +226,34 @@ Try this prompt:
 
 > Here are my facts, constraints, and three options. Do not decide for me. Separate facts, inferences, and values. For each option, list likely benefits, costs, unknowns, and a test I can run within two weeks. Mark conclusions that require a professional or an original source.
 
-## 8. Seven Days to Clarify a Decision
+Then ask three reverse questions: which assumptions produced the ranking, what evidence would change it, and which affected people or irreversible consequences were absent from the input. The more certain the model sounds, the more important it is to return missing conditions to the table.
+
+## 11. Seven Days to Clarify a Decision
 
 When one decision keeps occupying your attention, use a seven-day process:
 
 1. **Day 1**: write facts and the deadline, without a conclusion;
-2. **Day 2**: list at least three options, including doing nothing;
-3. **Day 3**: mark reversibility, worst case, and who carries responsibility;
-4. **Day 4**: ask one relevant person to check your omissions, not unrelated people for applause;
-5. **Day 5**: design a smallest experiment with a time and cost limit;
-6. **Day 6**: ask AI to act as the opposing side and find overlooked facts;
-7. **Day 7**: decide, record a review date, and state the stop condition.
+2. **Day 2**: separate missing information, outcome uncertainty, value conflict, and identity defence;
+3. **Day 3**: list at least three options, including doing nothing, and mark the non-negotiable boundaries;
+4. **Day 4**: name the decision owner, affected people, implementer, and reviewer; ask one relevant person to check omissions;
+5. **Day 5**: mark reversibility and design a smallest experiment with time and cost limits;
+6. **Day 6**: ask AI to oppose the plan and find missing facts, affected people, and disconfirming evidence;
+7. **Day 7**: decide and record the review date plus observable pause, stop, and rollback conditions.
 
 You may still choose to wait after seven days, but waiting must have a next piece of information and a date. It cannot be indefinite delay.
 
-## 9. Signs of a Good Decision Process
+## 12. Signs of a Good Decision Process
 
 A good decision does not guarantee a good result. It should have these properties:
 
 - facts and assumptions are recorded separately;
-- affected people know the boundaries and costs;
+- information gaps and value conflicts are not treated as the same problem;
+- decision authority, affected people, implementers, and reviewers are named separately;
+- affected people know the boundaries and costs, and matters requiring consent have meaningful consent;
 - reversible and irreversible parts are treated differently;
 - a small experiment buys information before a gamble hides the unknown;
-- there is a path to stop, roll back, or ask for help;
+- observable signals trigger pause, stop, rollback, and help rather than a temporary mood;
+- the evidence that would overturn the current choice is written down;
 - new evidence can change the plan without defending the image that you were never wrong.
 
 Maturity in choosing is not always choosing correctly. It is seeing earlier what cost you are paying for what result.

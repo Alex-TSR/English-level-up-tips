@@ -1,6 +1,6 @@
 ---
 title: Life Practice Toolkit
-description: A reusable private worksheet for decisions, attention, relationships, and recovery, preserving facts, consent, boundaries, repair actions, and review evidence.
+description: A reusable private worksheet for decisions, attention, relationships, and recovery, preserving facts, values, authority, consent, stop gates, repair actions, and review evidence.
 updated: 2026-09-03
 ---
 
@@ -29,6 +29,8 @@ Decision deadline:
 Known facts and sources:
 My interpretation:
 Still unknown:
+Problem type: missing information / outcome uncertainty / value conflict / identity defence
+Non-negotiable values and boundaries:
 
 Option A:
 Option B:
@@ -41,14 +43,26 @@ Impact on relationships and responsibility:
 What is reversible:
 
 Smallest experiment:
-Stop or rollback condition:
+Evidence gate and review date:
+Cost gate:
+Safety gate:
+Responsibility gate:
+Action when triggered: pause / stop / roll back / escalate for help
+What evidence would overturn this choice:
+
+Proposer:
+Final decision owner and basis of authority:
+Affected people and what they will actually carry:
+Matters requiring explicit consent:
+Implementer and required resources:
+Reviewer and authority to pause:
 Whose advice is relevant:
 Current decision:
 Review date:
 Evidence to preserve:
 ```
 
-Related chapter: [Decision-Making: Choosing Under Uncertainty](../threads/part-2/decision.md)
+Related chapter: [Decision-Making: Choosing Under Uncertainty](../threads/part-2/decision.md). When a decision affects shared life, privacy, or unequal power, also use [Relationships](../threads/part-2/relationships.md) to check consent and exit routes.
 
 ## 2. Attention Audit
 
