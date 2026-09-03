@@ -8,7 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
-- Corrected three English editorial details in the public homepage, project disclosure, and listening method while preserving the VitePress clean URL for the Reader Field Note entry point; regression coverage now protects the published route and wording.
+- Corrected three English editorial details in the public homepage, project disclosure, and listening method; the English Reader Field Note now stays in the English locale instead of silently crossing to the Chinese route, with regression coverage for the published route and wording.
 
 ### 2026-09-02 editorial pass
 

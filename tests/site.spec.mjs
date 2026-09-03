@@ -1063,13 +1063,17 @@ test("home pages use book metadata without third-party image requests", async ({
   await expect(enMeta.getByRole("link", { name: "Source and corrections" })).toBeVisible();
   await expect(enMeta.getByRole("link", { name: "Reader Field Note" })).toHaveAttribute(
     "href",
-    "../templates/reader-field-note",
+    "./templates/reader-field-note",
   );
   const readerFieldNoteUrl = new URL(
     await enMeta.getByRole("link", { name: "Reader Field Note" }).getAttribute("href"),
     page.url(),
   );
-  expect((await request.get(readerFieldNoteUrl.href)).status()).toBe(200);
+  const readerFieldNoteResponse = await request.get(readerFieldNoteUrl.href);
+  expect(readerFieldNoteResponse.status()).toBe(200);
+  const readerFieldNoteHtml = await readerFieldNoteResponse.text();
+  expect(readerFieldNoteHtml).toContain("Reader Field Note");
+  expect(readerFieldNoteHtml).not.toContain("读者现场回执");
   await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
   expect(externalImages).toEqual([]);
 });
