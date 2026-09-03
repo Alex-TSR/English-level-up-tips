@@ -44,6 +44,20 @@ jobs:
             --exclude "https://localhost"
             "**/*.md"
           fail: true
+      - name: Close stale external-link failure issues
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh issue list --repo "${{ github.repository }}" --state open --label automation --limit 100 --json number,title \
+            --jq '.[] | select(.title == "Scheduled external-link check failed") | .number' \
+            | while IFS= read -r issue; do
+                [ -n "$issue" ] || continue
+                gh issue close "$issue" --repo "${{ github.repository }}" \
+                  --comment "The latest scheduled link check passed, so this stale automation issue is now closed."
+              done
       - uses: peter-evans/create-issue-from-file@v6
         if: failure()
         with:

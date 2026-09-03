@@ -4,6 +4,12 @@ All notable project-level changes are documented here. Content pages retain thei
 
 ## Unreleased
 
+### 2026-09-03 maintenance pass
+
+#### Changed
+
+- Added automatic cleanup for stale external-link failure issues after a successful scheduled check, so the issue list reflects current regressions instead of old resolved alerts.
+
 ### 2026-09-03 editorial and release hygiene
 
 #### Changed
