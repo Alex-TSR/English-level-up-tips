@@ -487,6 +487,48 @@ test("the entrepreneurship chapter advances through scenes instead of stacked bi
   expect(contrastMarkers).toBeLessThanOrEqual(8);
 });
 
+test("relationships separate repair from reconciliation and protect consent under unequal power", () => {
+  const cases = [
+    {
+      chapter: "threads/part-2/relationships.md",
+      toolkit: "templates/life-practice-toolkit.md",
+      chapterTerms: [
+        "修复：不是把关系恢复成原样",
+        "修复不等于和好",
+        "权力差异：让拒绝真的有出口",
+        "沉默不是自动同意，依赖也不是空白授权",
+      ],
+      toolkitTerms: [
+        "谁掌握更多资源、评价权、账号、信息或退出成本",
+        "对方是否可以安全地拒绝、暂停或退出这次谈话",
+        "哪个修复可以被观察，而不以原谅或和好为条件",
+      ],
+    },
+    {
+      chapter: "en/threads/part-2/relationships.md",
+      toolkit: "en/templates/life-practice-toolkit.md",
+      chapterTerms: [
+        "Repair: Do Not Restore the Old Arrangement",
+        "Repair does not require reconciliation",
+        "Power Differences: Make Refusal a Real Option",
+        "Silence is not automatic consent, and dependence is not a blank authorisation",
+      ],
+      toolkitTerms: [
+        "Who holds more resources, evaluation power, account access, information, or exit cost",
+        "Can the other person safely refuse, pause, or leave this conversation",
+        "What repair can be observed without requiring forgiveness or reconciliation",
+      ],
+    },
+  ];
+
+  for (const { chapter, toolkit, chapterTerms, toolkitTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const toolkitText = readFileSync(resolve(process.cwd(), "docs", toolkit), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of toolkitTerms) expect(toolkitText, toolkit).toContain(term);
+  }
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);

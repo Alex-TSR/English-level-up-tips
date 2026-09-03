@@ -1,7 +1,7 @@
 ---
 title: Life Practice Toolkit
-description: A reusable private worksheet for decisions, attention, relationships, and recovery, preserving facts, boundaries, actions, and review evidence.
-updated: 2026-08-31
+description: A reusable private worksheet for decisions, attention, relationships, and recovery, preserving facts, consent, boundaries, repair actions, and review evidence.
+updated: 2026-09-03
 ---
 
 # Life Practice Toolkit
@@ -80,18 +80,25 @@ Related chapter: [Attention: Return Your Attention to Yourself](../threads/part-
 # Relationship Conversation Card — YYYY-MM-DD
 
 Relationship and situation:
+Who holds more resources, evaluation power, account access, information, or exit cost:
 What I want this conversation to accomplish:
+Can the other person safely refuse, pause, or leave this conversation?
+Do I have explicit consent to record, upload, forward, or publish any material?
 
 Specific facts I observed:
 Impact and feelings:
 What I actually need:
 One concrete request:
 Boundary I can enforce:
+Which responsibilities are mine, and which are not?
 If the conversation becomes unsafe, I will contact:
 
 After the conversation:
 - What did the other person actually say?
 - Did I really listen?
+- What did we explicitly agree to, and what did we not agree to?
+- Who owns each action, and when is it due?
+- What repair can be observed without requiring forgiveness or reconciliation?
 - What remains unresolved?
 - When will we review it?
 ```

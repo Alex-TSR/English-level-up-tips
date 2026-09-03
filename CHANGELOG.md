@@ -9,6 +9,7 @@ All notable project-level changes are documented here. Content pages retain thei
 #### Changed
 
 - Added automatic cleanup for stale external-link failure issues after a successful scheduled check, so the issue list reflects current regressions instead of old resolved alerts.
+- Expanded the bilingual Relationships chapter from communication advice into a fuller account of repair, restitution, reconciliation, power asymmetry, meaningful consent, withdrawal, and safe exit; upgraded the private Relationship Conversation Card to preserve those boundaries and observable follow-through.
 
 ### 2026-09-03 editorial and release hygiene
 
