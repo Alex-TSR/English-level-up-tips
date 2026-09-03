@@ -4,6 +4,12 @@ All notable project-level changes are documented here. Content pages retain thei
 
 ## Unreleased
 
+### 2026-09-03 editorial and release hygiene
+
+#### Changed
+
+- Corrected three English editorial details in the public homepage, project disclosure, and listening method while preserving the VitePress clean URL for the Reader Field Note entry point; regression coverage now protects the published route and wording.
+
 ### 2026-09-02 editorial pass
 
 #### Changed

@@ -1032,7 +1032,7 @@ test("home page shows the latest updates", async ({ page }) => {
   }
 });
 
-test("home pages use book metadata without third-party image requests", async ({ page }) => {
+test("home pages use book metadata without third-party image requests", async ({ page, request }) => {
   const externalImages = [];
   page.on("request", (request) => {
     const url = new URL(request.url());
@@ -1065,8 +1065,30 @@ test("home pages use book metadata without third-party image requests", async ({
     "href",
     "../templates/reader-field-note",
   );
+  const readerFieldNoteUrl = new URL(
+    await enMeta.getByRole("link", { name: "Reader Field Note" }).getAttribute("href"),
+    page.url(),
+  );
+  expect((await request.get(readerFieldNoteUrl.href)).status()).toBe(200);
   await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
   expect(externalImages).toEqual([]);
+});
+
+test("English homepage and listening copy keep the editorial corrections", async ({ page }) => {
+  await page.goto("./en/");
+  await expect(page.locator(".latest-update").nth(1)).toContainText(
+    "Han Xiankai met readers and peers face to face",
+  );
+
+  const projects = readFileSync(resolve(process.cwd(), "docs/en/projects.md"), "utf8");
+  expect(projects).toContain("It is a disclosure, not a purchase");
+
+  const listening = readFileSync(
+    resolve(process.cwd(), "docs/en/threads/part-1/3-listening.md"),
+    "utf8",
+  );
+  expect(listening).toContain("recurrently misheard chunk");
+  expect(listening).not.toContain("recurringly misheard chunk");
 });
 
 test("latest home photos stay within the deferred media budget", async ({ page, request }) => {
