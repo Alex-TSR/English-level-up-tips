@@ -41,19 +41,27 @@ It also keeps three kinds of claim separate:
 - **Personal experience** keeps its warmth without pretending to be a universal prescription;
 - **Hypotheses** may enter the conversation, but the next experiment must test them.
 
-<div class="guide-paths">
-  <a class="guide-path" href="./templates/learning-state"><strong>Lifelong Learning System</strong>Begin with a real problem, a current baseline, and a minimum task so each cycle can continue, be retested, and transfer.</a>
-  <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>Learn Anything with AI</strong>Use AI for questions, research, and feedback while keeping fact-checking and final judgment in human hands.</a>
-  <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Projects and Resource-layer Business</strong>Move from requirements, prototypes, code, and tests to model access, governance, enterprise delivery, and business validation.</a>
-  <a class="guide-path" href="./threads/part-1/0-cefr"><strong>Foundation: English</strong>Use English to reach global knowledge, technical documentation, and international AI tools, entering cross-cultural work through intelligibility rather than accent similarity.</a>
-  <a class="guide-path" href="./threads/part-1/grammar"><strong>Grammar for Real Expression</strong>Begin with whether time, responsibility, condition, and certainty are understood, then retest one high-impact structure for fourteen days instead of memorising every rule first.</a>
-  <a class="guide-path" href="./threads/part-1/6-writing"><strong>Writing and Asynchronous Delivery</strong>Preserve an unaided draft, fact sources, and revision reasons so email, reports, decisions, and handovers remain usable when the author is offline.</a>
-  <a class="guide-path" href="./threads/part-1/8-job-search-english"><strong>Global Job Search and Remote Work</strong>Turn a job description into recruiter communication, project explanation, unfamiliar follow-ups, and asynchronous writing, then use real samples to locate the next gap.</a>
-  <a class="guide-path" href="./threads/part-4/family-learning"><strong>Family and Middle-School Learning</strong>Let the learner help define the goal while adults protect environment, privacy, and safety; use fourteen days of evidence instead of surveillance or substituted work.</a>
-  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI Relay Recommendation: biezou.com</strong>The official site describes a unified AI API gateway and admin dashboard. Treat it as an optional third-party entry point and verify terms, pricing, privacy, and availability before use.</a>
-  <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>AI Resources on Telegram: OpenHuge_ai</strong>A third-party Telegram channel for discovering AI resources. Channel posts, outbound links, and availability can change; verify sources, privacy, copyright, and security risks before use.</a>
-  <a class="guide-path" href="./threads/part-2/my-story"><strong>Life Review and Recovery</strong>Acknowledge failure and cost, then rebuild judgment, order, and action after disruption.</a>
-  <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Make affiliations, purpose, update dates, and non-sponsorship visible so trust does not depend on guesswork.</a>
+<div class="guide-paths" aria-label="Reading paths">
+  <section class="guide-path-group" aria-labelledby="guide-foundation"><div class="guide-path-group-heading"><span class="guide-path-kicker">01</span><h2 id="guide-foundation">Build the Foundation</h2><p>Put the problem, language, and daily action on one map.</p></div><div class="guide-path-group-items">
+    <a class="guide-path" href="./templates/learning-state"><strong>Lifelong Learning System</strong>Begin with a real problem, a current baseline, and a minimum task so each cycle can continue, be retested, and transfer.</a>
+    <a class="guide-path" href="./threads/part-1/0-cefr"><strong>Foundation: English</strong>Use English to reach global knowledge, technical documentation, and international AI tools, entering cross-cultural work through intelligibility rather than accent similarity.</a>
+    <a class="guide-path" href="./threads/part-1/grammar"><strong>Grammar for Real Expression</strong>Begin with whether time, responsibility, condition, and certainty are understood, then retest one high-impact structure for fourteen days instead of memorising every rule first.</a>
+    <a class="guide-path" href="./threads/part-1/6-writing"><strong>Writing and Asynchronous Delivery</strong>Preserve an unaided draft, fact sources, and revision reasons so email, reports, decisions, and handovers remain usable when the author is offline.</a>
+  </div></section>
+  <section class="guide-path-group" aria-labelledby="guide-amplify"><div class="guide-path-group-heading"><span class="guide-path-kicker">02</span><h2 id="guide-amplify">Amplify Ability with Tools</h2><p>Let AI accelerate questions and verification while people keep judgment, testing, and responsibility.</p></div><div class="guide-path-group-items">
+    <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>Learn Anything with AI</strong>Use AI for questions, research, and feedback while keeping fact-checking and final judgment in human hands.</a>
+    <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Projects and Resource-layer Business</strong>Move from requirements, prototypes, code, and tests to model access, governance, enterprise delivery, and business validation.</a>
+  </div></section>
+  <section class="guide-path-group" aria-labelledby="guide-life"><div class="guide-path-group-heading"><span class="guide-path-kicker">03</span><h2 id="guide-life">Enter Real Life</h2><p>Carry learning into work, family, relationships, and the author's responsibilities.</p></div><div class="guide-path-group-items">
+    <a class="guide-path" href="./threads/part-1/8-job-search-english"><strong>Global Job Search and Remote Work</strong>Turn a job description into recruiter communication, project explanation, unfamiliar follow-ups, and asynchronous writing, then use real samples to locate the next gap.</a>
+    <a class="guide-path" href="./threads/part-4/family-learning"><strong>Family and Middle-School Learning</strong>Let the learner help define the goal while adults protect environment, privacy, and safety; use fourteen days of evidence instead of surveillance or substituted work.</a>
+    <a class="guide-path" href="./threads/part-2/my-story"><strong>Life Review and Recovery</strong>Acknowledge failure and cost, then rebuild judgment, order, and action after disruption.</a>
+    <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Make affiliations, purpose, update dates, and non-sponsorship visible so trust does not depend on guesswork.</a>
+  </div></section>
+  <section class="guide-path-group guide-path-group-external" aria-labelledby="guide-external"><div class="guide-path-group-heading"><span class="guide-path-kicker">04</span><h2 id="guide-external">Third-party Resources</h2><p>Optional external entry points, not safety, quality, or compliance endorsements by this book or its author.</p></div><div class="guide-path-group-items">
+    <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI Relay Recommendation: biezou.com</strong>The official site describes a unified AI API gateway and admin dashboard. Treat it as an optional third-party entry point and verify terms, pricing, privacy, and availability before use.</a>
+    <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>AI Resources on Telegram: OpenHuge_ai</strong>A third-party Telegram channel for discovering AI resources. Channel posts, outbound links, and availability can change; verify sources, privacy, copyright, and security risks before use.</a>
+  </div></section>
 </div>
 
 ## Book Structure

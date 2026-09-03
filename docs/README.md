@@ -41,19 +41,39 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 - **个人经验**：保留故事的温度，不把一条人生路径冒充成普遍规律；
 - **待验证假设**：允许想象进入讨论，但必须交给下一轮行动检验。
 
-<div class="guide-paths">
-  <a class="guide-path" href="./templates/learning-state"><strong>终身学习系统</strong>从真实问题、当前基线和最小任务出发，让每轮学习都能被继续、复测与迁移。</a>
-  <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
-  <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
-  <a class="guide-path" href="./threads/part-1/0-cefr"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档与国际 AI 工具，以可理解度而不是口音相似度进入跨文化协作。</a>
-  <a class="guide-path" href="./threads/part-1/grammar"><strong>语法基础与真实表达</strong>不从背完整规则开始，而从时间、责任、条件与确定性是否被听清开始，用一项高影响结构完成十四天复测。</a>
-  <a class="guide-path" href="./threads/part-1/6-writing"><strong>写作与异步交付</strong>保留无辅助初稿、事实来源和修改理由，让邮件、报告、决定与交接在作者离线后仍然可用。</a>
-  <a class="guide-path" href="./threads/part-1/8-job-search-english"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
-  <a class="guide-path" href="./threads/part-4/family-learning"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
-  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转推荐：biezou.com</strong>官网公开定位为统一 AI API 网关与管理面板；这是第三方可选入口，使用前请自行核对服务条款、价格、隐私与可用性。</a>
-  <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>AI 资源 TG 频道：OpenHuge_ai</strong>一个用于发现 AI 资源的第三方 Telegram 频道推荐；频道内容、外链与可用性会变化，使用前请自行核对来源、隐私、版权与安全风险。</a>
-  <a class="guide-path" href="./threads/part-2/my-story"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
-  <a class="guide-path" href="./projects"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
+<div class="guide-paths" aria-label="阅读路径">
+  <section class="guide-path-group" aria-labelledby="guide-foundation">
+    <div class="guide-path-group-heading"><span class="guide-path-kicker">01</span><h2 id="guide-foundation">建立基础</h2><p>先把问题、语言和每日动作放到同一张地图上。</p></div>
+    <div class="guide-path-group-items">
+      <a class="guide-path" href="./templates/learning-state"><strong>终身学习系统</strong>从真实问题、当前基线和最小任务出发，让每轮学习都能被继续、复测与迁移。</a>
+      <a class="guide-path" href="./threads/part-1/0-cefr"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档与国际 AI 工具，以可理解度而不是口音相似度进入跨文化协作。</a>
+      <a class="guide-path" href="./threads/part-1/grammar"><strong>语法基础与真实表达</strong>不从背完整规则开始，而从时间、责任、条件与确定性是否被听清开始，用一项高影响结构完成十四天复测。</a>
+      <a class="guide-path" href="./threads/part-1/6-writing"><strong>写作与异步交付</strong>保留无辅助初稿、事实来源和修改理由，让邮件、报告、决定与交接在作者离线后仍然可用。</a>
+    </div>
+  </section>
+  <section class="guide-path-group" aria-labelledby="guide-amplify">
+    <div class="guide-path-group-heading"><span class="guide-path-kicker">02</span><h2 id="guide-amplify">借工具放大能力</h2><p>让 AI 加速提问和验证，但把判断、测试与责任留在人手中。</p></div>
+    <div class="guide-path-group-items">
+      <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
+      <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
+    </div>
+  </section>
+  <section class="guide-path-group" aria-labelledby="guide-life">
+    <div class="guide-path-group-heading"><span class="guide-path-kicker">03</span><h2 id="guide-life">进入真实生活</h2><p>把学习带进工作、家庭、关系和作者正在承担的现实。</p></div>
+    <div class="guide-path-group-items">
+      <a class="guide-path" href="./threads/part-1/8-job-search-english"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
+      <a class="guide-path" href="./threads/part-4/family-learning"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
+      <a class="guide-path" href="./threads/part-2/my-story"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
+      <a class="guide-path" href="./projects"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
+    </div>
+  </section>
+  <section class="guide-path-group guide-path-group-external" aria-labelledby="guide-external">
+    <div class="guide-path-group-heading"><span class="guide-path-kicker">04</span><h2 id="guide-external">第三方资源</h2><p>可选的外部入口，不等于本书或作者的安全、质量与合规背书。</p></div>
+    <div class="guide-path-group-items">
+      <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转推荐：biezou.com</strong>官网公开定位为统一 AI API 网关与管理面板；这是第三方可选入口，使用前请自行核对服务条款、价格、隐私与可用性。</a>
+      <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>AI 资源 TG 频道：OpenHuge_ai</strong>一个用于发现 AI 资源的第三方 Telegram 频道推荐；频道内容、外链与可用性会变化，使用前请自行核对来源、隐私、版权与安全风险。</a>
+    </div>
+  </section>
 </div>
 
 ## 书稿主线

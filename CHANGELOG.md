@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Reorganised the bilingual homepage guide paths into four purpose-led groups with responsive cards, numbered section cues, accessible landmarks, and a visually distinct but explicitly non-endorsing third-party resources group.
 - Expanded the bilingual AI Task Brief and AI Learning Log into a governed workflow covering evaluation sets, human gates, data retention, cost, model scope, source verification, failure rollback, handover, independent production, speed debt, and delayed transfer.
 - Connected the AI work papers through the glossary and regression coverage so a model response cannot masquerade as a verified deliverable or independent learning.
 - Rebuilt the bilingual Learning Principles chapter and English Diagnostic around real deliveries, first-version conditions, error diagnosis, targeted repair, feedback uptake, performance-adjusted spacing, recovery and capacity modes, cross-session state, AI boundaries, and one-condition transfer.
