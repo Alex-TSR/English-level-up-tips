@@ -3,6 +3,10 @@
   "format": "PDF 1.7",
   "pageSize": "6 × 9.6 in",
   "scope": "Main manuscript, glossary, and toolkit; archive and word lists remain online-only.",
+  "inspector": {
+    "name": "pypdf",
+    "version": "6.16.2"
+  },
   "outputs": {
     "zh-CN": {
       "file": "life-level-up-guide-zh.pdf",
@@ -12,7 +16,7 @@
       "bytes": 4672263,
       "sha256": "c28a688d0e08801d0d8c2ef3a369df1596b13bd7dfd0f80d561a4edc526ece38",
       "sourceEpubSha256": "9482b2595e26010697d13ae6d21dd373ad861fb1a16609582b073e93f4940efe",
-      "semanticSha256": "f5155cf250b429ede294a6cf9ec14a7588760fba4f535fbef2b325b01a1adc40",
+      "semanticSha256": "8797b3fbb04a4aff40511fe7a035bbd779d9020b40d31620cf85c949f6b7983a",
       "outlineEntries": 773,
       "linkAnnotations": 777,
       "images": 21,
@@ -47,7 +51,7 @@
       "bytes": 3871395,
       "sha256": "63a769390a2f6f8652fc121084ddd969eb5fb082eb4bfa5ecf3e141fdc66bfc6",
       "sourceEpubSha256": "8cf3a94fb26b65960dce90e98bbdad4846693ace863b65a5bfd4da23b9962aa9",
-      "semanticSha256": "e25ba5c3c08616a08fe5a4bb03b856bd4cf27f6290ecbb17155bbff8c39155af",
+      "semanticSha256": "66435e332c7ab29b4f3519c8041e000ba9cb84941542c1e8315b9bff4097ca0e",
       "outlineEntries": 773,
       "linkAnnotations": 794,
       "images": 21,

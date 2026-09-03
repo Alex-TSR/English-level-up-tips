@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 from xml.etree import ElementTree as ET
 
 from PIL import Image as PILImage
-from pypdf import PdfReader
+from pypdf import PdfReader, __version__ as PYPDF_VERSION
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
@@ -872,6 +872,7 @@ def manifest_for(outputs: list[dict]) -> dict:
         "format": "PDF 1.7",
         "pageSize": "6 × 9.6 in",
         "scope": "Main manuscript, glossary, and toolkit; archive and word lists remain online-only.",
+        "inspector": {"name": "pypdf", "version": PYPDF_VERSION},
         "outputs": {metadata["language"]: metadata for metadata in outputs},
     }
 

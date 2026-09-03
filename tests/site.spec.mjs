@@ -699,6 +699,7 @@ test("home pages expose reproducible print-ready bilingual PDF editions", async 
   expect(manifestResponse.headers()["content-type"]).toContain("application/json");
   const manifest = await manifestResponse.json();
   expect(manifest).toMatchObject({ version: 2, format: "PDF 1.7", pageSize: "6 × 9.6 in" });
+  expect(manifest.inspector).toEqual({ name: "pypdf", version: "6.16.2" });
 
   const editions = [
     {
